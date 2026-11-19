@@ -1,0 +1,19 @@
+{
+  "fecha": "2026-11-12",
+  "resultado": "CORRECTO",
+  "colecciones_exportadas": 14,
+  "documentos_exportados": 59,
+  "cuentas_creadas_en_importacion": 3,
+  "pdf_demostracion": 4,
+  "comprobaciones": [
+    "Restauración de 14 colecciones con opciones, índices, fechas BSON y tres cuentas nuevas",
+    "Reimportación sobre base existente rechazada sin sobrescribir",
+    "Catálogo público cargado desde la copia importada",
+    "Inicio de sesión y datos del rol admin",
+    "Inicio de sesión y datos del rol empresa",
+    "Inicio de sesión y datos del rol profesional",
+    "PDF de demostración descargado mediante ruta privada",
+    "Base original conservada sin modificaciones de conteo"
+  ],
+  "entorno": "MongoDB temporal en macOS; no se ejecutó en Windows."
+}

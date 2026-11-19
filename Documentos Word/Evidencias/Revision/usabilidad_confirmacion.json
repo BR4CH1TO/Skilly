@@ -1,0 +1,44 @@
+{
+  "fecha_confirmacion_comunicada": "2026-11-12",
+  "procedencia": "Opiniones redactadas inicialmente como propuestas y confirmadas por los cinco participantes según comunicación del responsable del proyecto el 12/11/2026. No corresponden a transcripciones literales ni a observación directa registrada por el revisor.",
+  "participantes": [
+    {
+      "codigo": "U01",
+      "nombre": "Paula Delgado",
+      "opinion": "La vitrina permite entender los servicios disponibles. Destacaría mejor qué incluye cada servicio antes de enviar una solicitud.",
+      "tema": "Claridad del alcance del servicio",
+      "mejora_propuesta": "Revisar y destacar entregables, exclusiones y alcance antes de solicitar."
+    },
+    {
+      "codigo": "U02",
+      "nombre": "Valeska Ugarte",
+      "opinion": "El recorrido de validación ayuda a identificar los requisitos pendientes. Añadiría una explicación breve de cómo corregir cada requisito rechazado.",
+      "tema": "Orientación para subsanar requisitos",
+      "mejora_propuesta": "Revisar que cada requisito rechazado explique motivo y acción para corregirlo."
+    },
+    {
+      "codigo": "U03",
+      "nombre": "Benjamín Espinoza",
+      "opinion": "La organización de los contratos por etapas facilita el seguimiento. Resaltaría el importe, la fecha de entrega y quién debe actuar después.",
+      "tema": "Jerarquía de información contractual",
+      "mejora_propuesta": "Revisar el resumen de importe, vencimiento y próximo responsable por etapa."
+    },
+    {
+      "codigo": "U04",
+      "nombre": "Máximo Briceño",
+      "opinion": "El calendario ayuda a organizar las actividades. Diferenciaría claramente cuándo no hay reservas y cuándo el profesional no tiene disponibilidad.",
+      "tema": "Comprensión de estados vacíos",
+      "mejora_propuesta": "Revisar mensajes diferenciados para ausencia de reservas y de disponibilidad."
+    },
+    {
+      "codigo": "U05",
+      "nombre": "Raúl Infante",
+      "opinion": "La separación de funciones por rol facilita la navegación. Mantendría visible que los pagos son de prueba y pediría confirmación antes de las acciones importantes.",
+      "tema": "Confianza y prevención de errores",
+      "mejora_propuesta": "Revisar visibilidad de modo de prueba y confirmaciones en acciones importantes."
+    }
+  ],
+  "evaluaciones_realizadas_segun_responsable": 5,
+  "tiempos_y_resultados_por_tarea_aportados": false,
+  "cambios_y_revalidacion_acreditados_en_este_registro": false
+}

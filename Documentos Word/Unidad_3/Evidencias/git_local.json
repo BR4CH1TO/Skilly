@@ -1,0 +1,17 @@
+{
+  "fecha": "2026-11-19",
+  "inicializado_ahora": true,
+  "rama": "main",
+  "remotos": [],
+  "archivos_candidatos": 168,
+  "exclusiones_comprobadas": [
+    ".venv/bin/python",
+    "backend/.env",
+    "backend/private_documents/prueba.pdf",
+    "backend/private_backups/prueba.bson",
+    "backend/staticfiles/staticfiles.json",
+    "Documentos Word/Video/Skilly.mov"
+  ],
+  "patrones_credenciales_detectados": [],
+  "estado_publicacion": "Pendiente de autenticación y creación remota; no hay enlace atribuido."
+}

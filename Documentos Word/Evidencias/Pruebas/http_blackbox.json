@@ -1,0 +1,51 @@
+[
+  {
+    "id": "CN-01",
+    "caso": "Cat\u00e1logo p\u00fablico sin campos privados",
+    "esperadoHTTP": 200,
+    "observadoHTTP": 200,
+    "resultado": "APROBADO"
+  },
+  {
+    "id": "CN-02",
+    "caso": "Credenciales inv\u00e1lidas no crean sesi\u00f3n",
+    "esperadoHTTP": 401,
+    "observadoHTTP": 401,
+    "resultado": "APROBADO"
+  },
+  {
+    "id": "CN-03",
+    "caso": "Visitante no accede al panel de datos",
+    "esperadoHTTP": 401,
+    "observadoHTTP": 401,
+    "resultado": "APROBADO"
+  },
+  {
+    "id": "CN-04",
+    "caso": "Empresa no accede a administraci\u00f3n",
+    "esperadoHTTP": 403,
+    "observadoHTTP": 403,
+    "resultado": "APROBADO"
+  },
+  {
+    "id": "CN-05",
+    "caso": "Profesional no descarga documentos ajenos",
+    "esperadoHTTP": 403,
+    "observadoHTTP": 403,
+    "resultado": "APROBADO"
+  },
+  {
+    "id": "CN-06",
+    "caso": "Archivo con firma PDF falsa se rechaza",
+    "esperadoHTTP": 400,
+    "observadoHTTP": 400,
+    "resultado": "APROBADO"
+  },
+  {
+    "id": "CN-07",
+    "caso": "Escritura sin token CSRF se rechaza",
+    "esperadoHTTP": 403,
+    "observadoHTTP": 403,
+    "resultado": "APROBADO"
+  }
+]

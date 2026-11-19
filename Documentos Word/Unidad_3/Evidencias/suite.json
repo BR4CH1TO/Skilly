@@ -1,0 +1,319 @@
+{
+  "fecha": "2026-11-19T10:49:58.929923-03:00",
+  "comando": "SKILLY_INTEGRATION=1 python -m coverage run --source=backend/core --omit=\"*/test*.py,*/management/*\" backend/manage.py test core --verbosity 2",
+  "exit_code": 0,
+  "casos": [
+    {
+      "id": "core.test_access.AccessTests.test_company_cannot_access_admin_api_or_interview",
+      "metodo": "test_company_cannot_access_admin_api_or_interview",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_access.AccessTests.test_csrf_remains_required_on_login",
+      "metodo": "test_csrf_remains_required_on_login",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_access.AccessTests.test_internal_api_and_files_are_not_public",
+      "metodo": "test_internal_api_and_files_are_not_public",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_access.AccessTests.test_professional_cannot_access_another_profiles_files",
+      "metodo": "test_professional_cannot_access_another_profiles_files",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_access.AccessTests.test_public_catalog_is_a_projection_without_internal_data",
+      "metodo": "test_public_catalog_is_a_projection_without_internal_data",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_access.AccessTests.test_public_home_and_session_do_not_require_login",
+      "metodo": "test_public_home_and_session_do_not_require_login",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_access.AccessTests.test_register_cannot_choose_admin_role",
+      "metodo": "test_register_cannot_choose_admin_role",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_calendar.AvailabilityTests.test_foreign_professional_and_company_cannot_write",
+      "metodo": "test_foreign_professional_and_company_cannot_write",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_calendar.AvailabilityTests.test_normalizes_and_deduplicates_future_slots",
+      "metodo": "test_normalizes_and_deduplicates_future_slots",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_calendar.AvailabilityTests.test_past_slots_do_not_write",
+      "metodo": "test_past_slots_do_not_write",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_calendar.AvailabilityTests.test_stale_version_does_not_write",
+      "metodo": "test_stale_version_does_not_write",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_contracts.ContractIntegrationTests.test_accept_fund_deliver_release_and_replay",
+      "metodo": "test_accept_fund_deliver_release_and_replay",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_contracts.ContractIntegrationTests.test_change_requires_counterparty_and_foreign_is_denied",
+      "metodo": "test_change_requires_counterparty_and_foreign_is_denied",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_contracts.ContractIntegrationTests.test_dispute_requires_both_consents_before_refund",
+      "metodo": "test_dispute_requires_both_consents_before_refund",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_contracts.ContractIntegrationTests.test_holidays_skip_weekends_and_configured_dates",
+      "metodo": "test_holidays_skip_weekends_and_configured_dates",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_contracts.ContractIntegrationTests.test_new_flow_cannot_use_legacy_payment",
+      "metodo": "test_new_flow_cannot_use_legacy_payment",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_contracts.ContractIntegrationTests.test_privacy_requests_remain_private",
+      "metodo": "test_privacy_requests_remain_private",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_contracts.ContractIntegrationTests.test_private_evidence_access_and_integrity",
+      "metodo": "test_private_evidence_access_and_integrity",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_contracts.ContractIntegrationTests.test_reconsideration_requires_different_reviewer",
+      "metodo": "test_reconsideration_requires_different_reviewer",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_contracts.ContractIntegrationTests.test_restriction_preserves_login_and_existing_agreements",
+      "metodo": "test_restriction_preserves_login_and_existing_agreements",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_contracts.ContractIntegrationTests.test_silence_reminds_without_acceptance",
+      "metodo": "test_silence_reminds_without_acceptance",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_contracts.ContractIntegrationTests.test_stale_and_failed_projection_recover",
+      "metodo": "test_stale_and_failed_projection_recover",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_contracts.ContractRulesTests.test_agreed_exclusions_not_counted",
+      "metodo": "test_agreed_exclusions_not_counted",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_contracts.ContractRulesTests.test_commission_excludes_service_refund",
+      "metodo": "test_commission_excludes_service_refund",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_contracts.ContractRulesTests.test_fractional_pesos_round_down_after_multiplication",
+      "metodo": "test_fractional_pesos_round_down_after_multiplication",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_contracts.ContractRulesTests.test_grace_full_periods_and_cap",
+      "metodo": "test_grace_full_periods_and_cap",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_contracts.ContractRulesTests.test_no_debit_from_estimate",
+      "metodo": "test_no_debit_from_estimate",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_integration.RealIntegrationTests.test_catalog_pagination_beyond_one_hundred",
+      "metodo": "test_catalog_pagination_beyond_one_hundred",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_integration.RealIntegrationTests.test_complete_flow_permissions_and_recovery",
+      "metodo": "test_complete_flow_permissions_and_recovery",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_integration.RealIntegrationTests.test_read_load",
+      "metodo": "test_read_load",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_delivery.DeliveryTests.test_active_pdf_rejected",
+      "metodo": "test_active_pdf_rejected",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_delivery.DeliveryTests.test_dates_normalized_for_slot_comparison",
+      "metodo": "test_dates_normalized_for_slot_comparison",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_delivery.DeliveryTests.test_direct_payment_edits_are_denied_even_to_admin",
+      "metodo": "test_direct_payment_edits_are_denied_even_to_admin",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_delivery.DeliveryTests.test_encrypted_pdf_rejected",
+      "metodo": "test_encrypted_pdf_rejected",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_delivery.DeliveryTests.test_forged_pdf_rejected",
+      "metodo": "test_forged_pdf_rejected",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_delivery.DeliveryTests.test_invalid_optional_type_rejected",
+      "metodo": "test_invalid_optional_type_rejected",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_delivery.DeliveryTests.test_payment_cannot_skip_realization",
+      "metodo": "test_payment_cannot_skip_realization",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_delivery.DeliveryTests.test_same_booking_key_replays_existing_record",
+      "metodo": "test_same_booking_key_replays_existing_record",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_delivery.DeliveryTests.test_static_files_available_with_debug_false",
+      "metodo": "test_static_files_available_with_debug_false",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_delivery.DeliveryTests.test_structural_pdf_accepted_without_authenticity_claim",
+      "metodo": "test_structural_pdf_accepted_without_authenticity_claim",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_delivery.DeliveryTests.test_user_cannot_operate_foreign_agenda",
+      "metodo": "test_user_cannot_operate_foreign_agenda",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_hardening.HardeningTests.test_generated_development_key_and_required_production_key",
+      "metodo": "test_generated_development_key_and_required_production_key",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_hardening.HardeningTests.test_html_routes_reject_mutating_methods",
+      "metodo": "test_html_routes_reject_mutating_methods",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_hardening.HardeningTests.test_public_html_supports_head_without_body",
+      "metodo": "test_public_html_supports_head_without_body",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_unidad3.Unit3IntegrationTests.test_company_cannot_register_professional_progress",
+      "metodo": "test_company_cannot_register_professional_progress",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_unidad3.Unit3IntegrationTests.test_correction_cycle_preserves_both_deliveries",
+      "metodo": "test_correction_cycle_preserves_both_deliveries",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_unidad3.Unit3IntegrationTests.test_failed_login_attempts_are_limited",
+      "metodo": "test_failed_login_attempts_are_limited",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_unidad3.Unit3IntegrationTests.test_operator_details_do_not_enable_real_payments",
+      "metodo": "test_operator_details_do_not_enable_real_payments",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_unidad3.Unit3IntegrationTests.test_rejected_proposal_has_no_financing",
+      "metodo": "test_rejected_proposal_has_no_financing",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_workflow.WorkflowRuleTests.test_documents_alone_never_replace_human_interview",
+      "metodo": "test_documents_alone_never_replace_human_interview",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_workflow.WorkflowRuleTests.test_false_document_metadata_does_not_pass",
+      "metodo": "test_false_document_metadata_does_not_pass",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_workflow.WorkflowRuleTests.test_interview_approval_completes_process",
+      "metodo": "test_interview_approval_completes_process",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_workflow.WorkflowRuleTests.test_interview_requires_admin_before_database_access",
+      "metodo": "test_interview_requires_admin_before_database_access",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_workflow.WorkflowRuleTests.test_missing_documents_never_pass_automatically",
+      "metodo": "test_missing_documents_never_pass_automatically",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.test_workflow.WorkflowRuleTests.test_service_requires_deliverables_and_validated_profile",
+      "metodo": "test_service_requires_deliverables_and_validated_profile",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.tests.RecordApiTests.test_create_one_person_in_its_own_collection",
+      "metodo": "test_create_one_person_in_its_own_collection",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.tests.RecordApiTests.test_csrf_and_validation_prevent_writes",
+      "metodo": "test_csrf_and_validation_prevent_writes",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.tests.RecordApiTests.test_dates_are_bson_dates_and_money_is_integer",
+      "metodo": "test_dates_are_bson_dates_and_money_is_integer",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.tests.RecordApiTests.test_duplicate_and_connection_errors",
+      "metodo": "test_duplicate_and_connection_errors",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.tests.RecordApiTests.test_initial_read_does_not_insert_anything",
+      "metodo": "test_initial_read_does_not_insert_anything",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.tests.RecordApiTests.test_rejects_missing_references",
+      "metodo": "test_rejects_missing_references",
+      "resultado": "ok"
+    },
+    {
+      "id": "core.tests.RecordApiTests.test_update_checks_version_and_identity",
+      "metodo": "test_update_checks_version_and_identity",
+      "resultado": "ok"
+    }
+  ],
+  "salida": "test_company_cannot_access_admin_api_or_interview (core.test_access.AccessTests.test_company_cannot_access_admin_api_or_interview) ... ok\ntest_csrf_remains_required_on_login (core.test_access.AccessTests.test_csrf_remains_required_on_login) ... ok\ntest_internal_api_and_files_are_not_public (core.test_access.AccessTests.test_internal_api_and_files_are_not_public) ... ok\ntest_professional_cannot_access_another_profiles_files (core.test_access.AccessTests.test_professional_cannot_access_another_profiles_files) ... ok\ntest_public_catalog_is_a_projection_without_internal_data (core.test_access.AccessTests.test_public_catalog_is_a_projection_without_internal_data) ... ok\ntest_public_home_and_session_do_not_require_login (core.test_access.AccessTests.test_public_home_and_session_do_not_require_login) ... ok\ntest_register_cannot_choose_admin_role (core.test_access.AccessTests.test_register_cannot_choose_admin_role) ... ok\ntest_foreign_professional_and_company_cannot_write (core.test_calendar.AvailabilityTests.test_foreign_professional_and_company_cannot_write) ... ok\ntest_normalizes_and_deduplicates_future_slots (core.test_calendar.AvailabilityTests.test_normalizes_and_deduplicates_future_slots) ... ok\ntest_past_slots_do_not_write (core.test_calendar.AvailabilityTests.test_past_slots_do_not_write) ... ok\ntest_stale_version_does_not_write (core.test_calendar.AvailabilityTests.test_stale_version_does_not_write) ... ok\ntest_accept_fund_deliver_release_and_replay (core.test_contracts.ContractIntegrationTests.test_accept_fund_deliver_release_and_replay) ... ok\ntest_change_requires_counterparty_and_foreign_is_denied (core.test_contracts.ContractIntegrationTests.test_change_requires_counterparty_and_foreign_is_denied) ... ok\ntest_dispute_requires_both_consents_before_refund (core.test_contracts.ContractIntegrationTests.test_dispute_requires_both_consents_before_refund) ... ok\ntest_holidays_skip_weekends_and_configured_dates (core.test_contracts.ContractIntegrationTests.test_holidays_skip_weekends_and_configured_dates) ... ok\ntest_new_flow_cannot_use_legacy_payment (core.test_contracts.ContractIntegrationTests.test_new_flow_cannot_use_legacy_payment) ... ok\ntest_privacy_requests_remain_private (core.test_contracts.ContractIntegrationTests.test_privacy_requests_remain_private) ... ok\ntest_private_evidence_access_and_integrity (core.test_contracts.ContractIntegrationTests.test_private_evidence_access_and_integrity) ... ok\ntest_reconsideration_requires_different_reviewer (core.test_contracts.ContractIntegrationTests.test_reconsideration_requires_different_reviewer) ... ok\ntest_restriction_preserves_login_and_existing_agreements (core.test_contracts.ContractIntegrationTests.test_restriction_preserves_login_and_existing_agreements) ... ok\ntest_silence_reminds_without_acceptance (core.test_contracts.ContractIntegrationTests.test_silence_reminds_without_acceptance) ... ok\ntest_stale_and_failed_projection_recover (core.test_contracts.ContractIntegrationTests.test_stale_and_failed_projection_recover) ... ok\ntest_agreed_exclusions_not_counted (core.test_contracts.ContractRulesTests.test_agreed_exclusions_not_counted) ... ok\ntest_commission_excludes_service_refund (core.test_contracts.ContractRulesTests.test_commission_excludes_service_refund) ... ok\ntest_fractional_pesos_round_down_after_multiplication (core.test_contracts.ContractRulesTests.test_fractional_pesos_round_down_after_multiplication) ... ok\ntest_grace_full_periods_and_cap (core.test_contracts.ContractRulesTests.test_grace_full_periods_and_cap) ... ok\ntest_no_debit_from_estimate (core.test_contracts.ContractRulesTests.test_no_debit_from_estimate) ... ok\ntest_catalog_pagination_beyond_one_hundred (core.test_integration.RealIntegrationTests.test_catalog_pagination_beyond_one_hundred) ... ok\ntest_complete_flow_permissions_and_recovery (core.test_integration.RealIntegrationTests.test_complete_flow_permissions_and_recovery) ... ok\ntest_read_load (core.test_integration.RealIntegrationTests.test_read_load) ... ok\ntest_active_pdf_rejected (core.test_delivery.DeliveryTests.test_active_pdf_rejected) ... ok\ntest_dates_normalized_for_slot_comparison (core.test_delivery.DeliveryTests.test_dates_normalized_for_slot_comparison) ... ok\ntest_direct_payment_edits_are_denied_even_to_admin (core.test_delivery.DeliveryTests.test_direct_payment_edits_are_denied_even_to_admin) ... ok\ntest_encrypted_pdf_rejected (core.test_delivery.DeliveryTests.test_encrypted_pdf_rejected) ... ok\ntest_forged_pdf_rejected (core.test_delivery.DeliveryTests.test_forged_pdf_rejected) ... ok\ntest_invalid_optional_type_rejected (core.test_delivery.DeliveryTests.test_invalid_optional_type_rejected) ... ok\ntest_payment_cannot_skip_realization (core.test_delivery.DeliveryTests.test_payment_cannot_skip_realization) ... ok\ntest_same_booking_key_replays_existing_record (core.test_delivery.DeliveryTests.test_same_booking_key_replays_existing_record) ... ok\ntest_static_files_available_with_debug_false (core.test_delivery.DeliveryTests.test_static_files_available_with_debug_false) ... ok\ntest_structural_pdf_accepted_without_authenticity_claim (core.test_delivery.DeliveryTests.test_structural_pdf_accepted_without_authenticity_claim) ... ok\ntest_user_cannot_operate_foreign_agenda (core.test_delivery.DeliveryTests.test_user_cannot_operate_foreign_agenda) ... ok\ntest_generated_development_key_and_required_production_key (core.test_hardening.HardeningTests.test_generated_development_key_and_required_production_key) ... ok\ntest_html_routes_reject_mutating_methods (core.test_hardening.HardeningTests.test_html_routes_reject_mutating_methods) ... ok\ntest_public_html_supports_head_without_body (core.test_hardening.HardeningTests.test_public_html_supports_head_without_body) ... ok\ntest_company_cannot_register_professional_progress (core.test_unidad3.Unit3IntegrationTests.test_company_cannot_register_professional_progress) ... ok\ntest_correction_cycle_preserves_both_deliveries (core.test_unidad3.Unit3IntegrationTests.test_correction_cycle_preserves_both_deliveries) ... ok\ntest_failed_login_attempts_are_limited (core.test_unidad3.Unit3IntegrationTests.test_failed_login_attempts_are_limited) ... ok\ntest_operator_details_do_not_enable_real_payments (core.test_unidad3.Unit3IntegrationTests.test_operator_details_do_not_enable_real_payments) ... ok\ntest_rejected_proposal_has_no_financing (core.test_unidad3.Unit3IntegrationTests.test_rejected_proposal_has_no_financing) ... ok\ntest_documents_alone_never_replace_human_interview (core.test_workflow.WorkflowRuleTests.test_documents_alone_never_replace_human_interview) ... ok\ntest_false_document_metadata_does_not_pass (core.test_workflow.WorkflowRuleTests.test_false_document_metadata_does_not_pass) ... ok\ntest_interview_approval_completes_process (core.test_workflow.WorkflowRuleTests.test_interview_approval_completes_process) ... ok\ntest_interview_requires_admin_before_database_access (core.test_workflow.WorkflowRuleTests.test_interview_requires_admin_before_database_access) ... ok\ntest_missing_documents_never_pass_automatically (core.test_workflow.WorkflowRuleTests.test_missing_documents_never_pass_automatically) ... ok\ntest_service_requires_deliverables_and_validated_profile (core.test_workflow.WorkflowRuleTests.test_service_requires_deliverables_and_validated_profile) ... ok\ntest_create_one_person_in_its_own_collection (core.tests.RecordApiTests.test_create_one_person_in_its_own_collection) ... ok\ntest_csrf_and_validation_prevent_writes (core.tests.RecordApiTests.test_csrf_and_validation_prevent_writes) ... ok\ntest_dates_are_bson_dates_and_money_is_integer (core.tests.RecordApiTests.test_dates_are_bson_dates_and_money_is_integer) ... ok\ntest_duplicate_and_connection_errors (core.tests.RecordApiTests.test_duplicate_and_connection_errors) ... ok\ntest_initial_read_does_not_insert_anything (core.tests.RecordApiTests.test_initial_read_does_not_insert_anything) ... ok\ntest_rejects_missing_references (core.tests.RecordApiTests.test_rejects_missing_references) ... ok\ntest_update_checks_version_and_identity (core.tests.RecordApiTests.test_update_checks_version_and_identity) ... ok\n\n----------------------------------------------------------------------\nRan 62 tests in 44.611s\n\nOK\nFound 62 test(s).\nSkipping setup of unused database(s): default.\nSystem check identified no issues (0 silenced).\n\nCarga interna: 100 lecturas/4 trabajadores, 0 errores; p95=19.44ms, p99=41.57ms. No representa carga HTTP de producción.\n",
+  "contexto": "MongoDB temporal de integración; se usa la configuración del proyecto para la conexión, no sus datos operativos."
+}

@@ -1,0 +1,96 @@
+{
+  "entorno": {
+    "server": "Django runserver local; HTTP real; sin TLS ni proxy",
+    "cliente": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "base": "temporal sint\u00e9tica",
+    "mezcla": "80% cat\u00e1logo, 20% sesi\u00f3n an\u00f3nima",
+    "concurrencia": "modelo cerrado con pausa de 50 ms por trabajador"
+  },
+  "fases": [
+    {
+      "escenario": "datos_base",
+      "usuarios": 1,
+      "duracionObjetivoSeg": 30,
+      "duracionRealSeg": 30.06,
+      "peticiones": 468,
+      "errores": 0,
+      "rps": 15.57,
+      "p50ms": 10.942,
+      "p95ms": 12.964,
+      "p99ms": 14.909,
+      "pausaPorUsuarioMs": 50
+    },
+    {
+      "escenario": "datos_base",
+      "usuarios": 5,
+      "duracionObjetivoSeg": 30,
+      "duracionRealSeg": 30.04,
+      "peticiones": 2198,
+      "errores": 0,
+      "rps": 73.17,
+      "p50ms": 11.064,
+      "p95ms": 18.369,
+      "p99ms": 72.323,
+      "pausaPorUsuarioMs": 50
+    },
+    {
+      "escenario": "datos_base",
+      "usuarios": 10,
+      "duracionObjetivoSeg": 30,
+      "duracionRealSeg": 30.06,
+      "peticiones": 4544,
+      "errores": 0,
+      "rps": 151.19,
+      "p50ms": 11.215,
+      "p95ms": 20.236,
+      "p99ms": 44.959,
+      "pausaPorUsuarioMs": 50
+    },
+    {
+      "escenario": "1000_perfiles_3000_servicios",
+      "usuarios": 1,
+      "duracionObjetivoSeg": 30,
+      "duracionRealSeg": 30.06,
+      "peticiones": 221,
+      "errores": 0,
+      "rps": 7.35,
+      "p50ms": 96.626,
+      "p95ms": 115.457,
+      "p99ms": 146.516,
+      "pausaPorUsuarioMs": 50
+    },
+    {
+      "escenario": "1000_perfiles_3000_servicios",
+      "usuarios": 5,
+      "duracionObjetivoSeg": 30,
+      "duracionRealSeg": 30.14,
+      "peticiones": 895,
+      "errores": 0,
+      "rps": 29.69,
+      "p50ms": 131.238,
+      "p95ms": 185.442,
+      "p99ms": 338.509,
+      "pausaPorUsuarioMs": 50
+    },
+    {
+      "escenario": "1000_perfiles_3000_servicios",
+      "usuarios": 10,
+      "duracionObjetivoSeg": 30,
+      "duracionRealSeg": 30.15,
+      "peticiones": 1483,
+      "errores": 0,
+      "rps": 49.19,
+      "p50ms": 175.502,
+      "p95ms": 240.217,
+      "p99ms": 285.863,
+      "pausaPorUsuarioMs": 50
+    }
+  ],
+  "volumen": {
+    "perfilesInsertados": 1000,
+    "serviciosInsertados": 3000,
+    "totalServicios": 3001,
+    "ultimaPaginaHTTP": 200,
+    "registrosEnPagina": 24
+  }
+}
