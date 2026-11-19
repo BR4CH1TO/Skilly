@@ -1,0 +1,43 @@
+{
+  "fecha": "2026-11-19",
+  "consulta": "Perfiles validados ordenados por nombre e id, límite 24",
+  "dataset": "1001 perfiles sintéticos; nombres duplicados para validar desempate",
+  "indice": "catalogo_profesionales",
+  "claves": [
+    {
+      "estado": 1
+    },
+    {
+      "nombre": 1
+    },
+    {
+      "_id": 1
+    }
+  ],
+  "antes": {
+    "etapas": [
+      "FETCH",
+      "IXSCAN",
+      "SORT"
+    ],
+    "nReturned": 24,
+    "documentosExaminados": 1001,
+    "clavesExaminadas": 1001,
+    "executionTimeMillis": 5
+  },
+  "despues": {
+    "etapas": [
+      "FETCH",
+      "IXSCAN",
+      "LIMIT"
+    ],
+    "nReturned": 24,
+    "documentosExaminados": 24,
+    "clavesExaminadas": 24,
+    "executionTimeMillis": 0
+  },
+  "ordenYRegistrosIguales": true,
+  "aplicacionIdempotente": true,
+  "documentosSinCambios": true,
+  "limite": "No optimiza automáticamente la agregación de servicios; tiempos no constituyen SLA."
+}

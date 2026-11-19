@@ -1,0 +1,199 @@
+{
+  "fechaUTC": "2026-11-19T13:41:56.185033+00:00",
+  "entorno": {
+    "servidor": "Django runserver local; HTTP sin TLS",
+    "cliente": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "mezcla": "80% catálogo; 20% consulta de sesión anónima",
+    "modelo": "Cerrado; trabajadores concurrentes, no usuarios humanos ni tasa de llegada ilimitada",
+    "duracionFaseSegundos": 8
+  },
+  "umbralesPrevios": {
+    "errorCargaVolumen": 0,
+    "p95CargaVolumenObjetivoMs": 500,
+    "paradaEstresError": 0.05,
+    "paradaEstresP95Ms": 2000,
+    "maxTrabajadores": 40,
+    "naturaleza": "Criterios propuestos de laboratorio; no SLA ni certificación externa"
+  },
+  "fases": [
+    {
+      "fase": "base",
+      "trabajadores": 1,
+      "segundosObjetivo": 8,
+      "segundosReales": 8.025,
+      "peticiones": 208,
+      "errores": 0,
+      "p95ms": 12.469,
+      "p99ms": 13.649,
+      "rps": 25.918,
+      "pausaMs": 25,
+      "tasaError": 0.0
+    },
+    {
+      "fase": "base",
+      "trabajadores": 5,
+      "segundosObjetivo": 8,
+      "segundosReales": 8.025,
+      "peticiones": 1030,
+      "errores": 0,
+      "p95ms": 12.828,
+      "p99ms": 14.152,
+      "rps": 128.351,
+      "pausaMs": 25,
+      "tasaError": 0.0
+    },
+    {
+      "fase": "base",
+      "trabajadores": 10,
+      "segundosObjetivo": 8,
+      "segundosReales": 8.034,
+      "peticiones": 2246,
+      "errores": 0,
+      "p95ms": 11.712,
+      "p99ms": 14.01,
+      "rps": 279.571,
+      "pausaMs": 25,
+      "tasaError": 0.0
+    },
+    {
+      "fase": "volumen",
+      "trabajadores": 1,
+      "segundosObjetivo": 8,
+      "segundosReales": 8.064,
+      "peticiones": 77,
+      "errores": 0,
+      "p95ms": 117.696,
+      "p99ms": 151.623,
+      "rps": 9.549,
+      "pausaMs": 25,
+      "tasaError": 0.0
+    },
+    {
+      "fase": "volumen",
+      "trabajadores": 5,
+      "segundosObjetivo": 8,
+      "segundosReales": 8.071,
+      "peticiones": 297,
+      "errores": 0,
+      "p95ms": 168.036,
+      "p99ms": 261.592,
+      "rps": 36.797,
+      "pausaMs": 25,
+      "tasaError": 0.0
+    },
+    {
+      "fase": "volumen",
+      "trabajadores": 10,
+      "segundosObjetivo": 8,
+      "segundosReales": 8.174,
+      "peticiones": 429,
+      "errores": 0,
+      "p95ms": 242.689,
+      "p99ms": 275.47,
+      "rps": 52.485,
+      "pausaMs": 25,
+      "tasaError": 0.0
+    },
+    {
+      "fase": "estres_acotado",
+      "trabajadores": 1,
+      "segundosObjetivo": 8,
+      "segundosReales": 8.021,
+      "peticiones": 114,
+      "errores": 0,
+      "p95ms": 88.397,
+      "p99ms": 95.681,
+      "rps": 14.214,
+      "pausaMs": 0,
+      "tasaError": 0.0
+    },
+    {
+      "fase": "estres_acotado",
+      "trabajadores": 5,
+      "segundosObjetivo": 8,
+      "segundosReales": 8.118,
+      "peticiones": 397,
+      "errores": 0,
+      "p95ms": 138.85,
+      "p99ms": 143.678,
+      "rps": 48.903,
+      "pausaMs": 0,
+      "tasaError": 0.0
+    },
+    {
+      "fase": "estres_acotado",
+      "trabajadores": 10,
+      "segundosObjetivo": 8,
+      "segundosReales": 8.14,
+      "peticiones": 386,
+      "errores": 0,
+      "p95ms": 352.321,
+      "p99ms": 694.541,
+      "rps": 47.417,
+      "pausaMs": 0,
+      "tasaError": 0.0
+    },
+    {
+      "fase": "estres_acotado",
+      "trabajadores": 20,
+      "segundosObjetivo": 8,
+      "segundosReales": 8.301,
+      "peticiones": 391,
+      "errores": 0,
+      "p95ms": 653.913,
+      "p99ms": 683.566,
+      "rps": 47.105,
+      "pausaMs": 0,
+      "tasaError": 0.0
+    },
+    {
+      "fase": "estres_acotado",
+      "trabajadores": 40,
+      "segundosObjetivo": 8,
+      "segundosReales": 8.547,
+      "peticiones": 399,
+      "errores": 0,
+      "p95ms": 1234.476,
+      "p99ms": 1327.717,
+      "rps": 46.685,
+      "pausaMs": 0,
+      "tasaError": 0.0
+    },
+    {
+      "fase": "recuperacion",
+      "trabajadores": 1,
+      "segundosObjetivo": 8,
+      "segundosReales": 8.053,
+      "peticiones": 77,
+      "errores": 0,
+      "p95ms": 100.115,
+      "p99ms": 189.204,
+      "rps": 9.562,
+      "pausaMs": 25,
+      "tasaError": 0.0
+    }
+  ],
+  "volumen": {
+    "profesionalesInsertados": 1000,
+    "serviciosInsertados": 3000,
+    "HTTP": 200,
+    "totalServicios": 3001,
+    "registrosUltimaPagina": 24
+  },
+  "paradaEstres": "Límite preventivo de 40 trabajadores alcanzado; no se determina capacidad máxima.",
+  "recuperacionSatisfactoria": true,
+  "consultaIndices": {
+    "consulta": "Listado paginado de profesionales validados, orden nombre/_id",
+    "etapas": [
+      "FETCH",
+      "IXSCAN",
+      "SORT"
+    ],
+    "nReturned": 24,
+    "totalDocsExamined": 1001,
+    "totalKeysExamined": 1001,
+    "executionTimeMillis": 3,
+    "alcance": "Consulta de perfiles; no es el explain de la agregación de servicios."
+  },
+  "limites": "Prueba corta y local. No acredita producción ni punto de ruptura si no fue alcanzado."
+}

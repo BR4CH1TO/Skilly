@@ -1,0 +1,226 @@
+{
+  "fecha": "2026-11-19",
+  "resultado": "APROBADO",
+  "alcance": "Ensayo de integración del recorrido de grabación: dos etapas, correcciones, cambio de fecha, liquidación, incidencia, devolución consentida y evaluación. Datos sintéticos en MongoDB temporal; no es un video ni evaluación humana.",
+  "operaciones": [
+    {
+      "rol": "profesional",
+      "accion": "aceptar",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "por_financiar",
+        "por_financiar"
+      ]
+    },
+    {
+      "rol": "empresa",
+      "accion": "financiar",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "financiado",
+        "por_financiar"
+      ]
+    },
+    {
+      "rol": "empresa",
+      "accion": "insumos",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "financiado",
+        "por_financiar"
+      ]
+    },
+    {
+      "rol": "profesional",
+      "accion": "iniciar",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "en_ejecucion",
+        "por_financiar"
+      ]
+    },
+    {
+      "rol": "profesional",
+      "accion": "proponer_cambio",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "en_ejecucion",
+        "por_financiar"
+      ]
+    },
+    {
+      "rol": "empresa",
+      "accion": "aceptar_cambio",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "en_ejecucion",
+        "por_financiar"
+      ]
+    },
+    {
+      "rol": "profesional",
+      "accion": "avance",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "en_ejecucion",
+        "por_financiar"
+      ]
+    },
+    {
+      "rol": "profesional",
+      "accion": "entregar",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "en_revision",
+        "por_financiar"
+      ]
+    },
+    {
+      "rol": "empresa",
+      "accion": "observar",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "correcciones",
+        "por_financiar"
+      ]
+    },
+    {
+      "rol": "profesional",
+      "accion": "respuesta_correccion",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "correcciones",
+        "por_financiar"
+      ]
+    },
+    {
+      "rol": "profesional",
+      "accion": "entregar",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "en_revision",
+        "por_financiar"
+      ]
+    },
+    {
+      "rol": "empresa",
+      "accion": "aceptar_entrega",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "aceptado",
+        "por_financiar"
+      ]
+    },
+    {
+      "rol": "admin",
+      "accion": "liquidar",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "liquidado",
+        "por_financiar"
+      ]
+    },
+    {
+      "rol": "empresa",
+      "accion": "financiar",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "liquidado",
+        "financiado"
+      ]
+    },
+    {
+      "rol": "empresa",
+      "accion": "insumos",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "liquidado",
+        "financiado"
+      ]
+    },
+    {
+      "rol": "profesional",
+      "accion": "iniciar",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "liquidado",
+        "en_ejecucion"
+      ]
+    },
+    {
+      "rol": "empresa",
+      "accion": "reclamar",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "liquidado",
+        "en_ejecucion"
+      ]
+    },
+    {
+      "rol": "profesional",
+      "accion": "responder",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "liquidado",
+        "en_ejecucion"
+      ]
+    },
+    {
+      "rol": "admin",
+      "accion": "proponer_resolucion",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "liquidado",
+        "en_ejecucion"
+      ]
+    },
+    {
+      "rol": "empresa",
+      "accion": "aceptar_resolucion",
+      "estado_acuerdo": "vigente",
+      "estado_etapas": [
+        "liquidado",
+        "en_ejecucion"
+      ]
+    },
+    {
+      "rol": "profesional",
+      "accion": "aceptar_resolucion",
+      "estado_acuerdo": "cerrado",
+      "estado_etapas": [
+        "liquidado",
+        "cancelado"
+      ]
+    },
+    {
+      "rol": "admin",
+      "accion": "devolver",
+      "estado_acuerdo": "cerrado",
+      "estado_etapas": [
+        "liquidado",
+        "reembolsado"
+      ]
+    },
+    {
+      "rol": "empresa",
+      "accion": "evaluar",
+      "estado_acuerdo": "cerrado",
+      "estado_etapas": [
+        "liquidado",
+        "reembolsado"
+      ]
+    }
+  ],
+  "resumen_final": {
+    "retenido": 0,
+    "liquidado": 67500,
+    "devuelto": 75000,
+    "comisionCobrada": 7500,
+    "aceptadoPorAmbasPartes": true,
+    "simulado": true
+  },
+  "estados_finales": [
+    "liquidado",
+    "reembolsado"
+  ]
+}
