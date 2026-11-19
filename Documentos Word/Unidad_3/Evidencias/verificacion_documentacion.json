@@ -57,7 +57,7 @@
   "casos_uso": 31,
   "ruff_version": "0.17.5",
   "cobertura_sentencias": 85.3781512605042,
-  "limites": "Usabilidad en modalidad simulada declarada, sin entrevistas reales. Colaboración externa pendiente y video por grabar. Las campañas HTTP/rendimiento mantienen su corte anterior.",
+  "limites": "Usabilidad simulada declarada; video y defensa por completar. Actividad académica planteada como grupal y ejecución realizada por Antony Bracho. Campañas HTTP/rendimiento mantienen su corte anterior.",
   "alternativas_con_evidencia": 80,
   "alternativas_sin_ejecucion_individual": 0,
   "integraciones_nuevas_cierre": 47,

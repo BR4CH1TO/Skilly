@@ -1,11 +1,7 @@
 {
-  "fecha_solicitud": "2026-11-19",
-  "repositorio": "https://github.com/BR4CH1TO/Skilly",
-  "solicitud": "https://github.com/BR4CH1TO/Skilly/issues/1",
-  "titulo": "Revisión externa de la entrega: negocio, código y evidencias",
-  "cuenta_solicitante": "BR4CH1TO",
-  "estado_al_crear": "Abierta, pendiente de intervención externa",
-  "revision_externa_acreditada": false,
-  "alcance": "La publicación y la apertura de una solicitud no acreditan por sí solas colaboración de terceros. Una revisión docente no se atribuye como programación de otro integrante.",
-  "cierre": "Comentario concreto de otra cuenta, respuesta técnica y cambio/comprobación cuando corresponda."
+  "fecha": "2026-11-19",
+  "registro_historico": "https://github.com/BR4CH1TO/Skilly/issues/1",
+  "estado": "Solicitud de revisión opcional; no constituye un requisito pendiente del plan de ejecución.",
+  "organizacion": "La actividad académica está planteada como grupal. El desarrollo, la documentación y la verificación de esta entrega han sido realizados por Antony Bracho, según la distribución efectiva de trabajo informada. Los criterios de participación y trabajo en equipo corresponden a la valoración docente de esa situación; no se modifican los criterios originales de la rúbrica.",
+  "participacion_atribuida": "Antony Bracho, responsable del trabajo presentado."
 }
