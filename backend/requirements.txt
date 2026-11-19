@@ -1,6 +1,0 @@
-Django==6.0.9
-django-mongodb-backend==6.0.4
-python-dotenv==1.2.4
-pypdf==6.21.4
-whitenoise==6.12.0
-gunicorn==25.3.0
