@@ -1,0 +1,74 @@
+{
+  "fecha_elaboracion": "2026-11-19",
+  "modalidad": "simulacion_academica",
+  "responsable": "Antony Bracho",
+  "procedencia": "El responsable comunicó autorización docente para simular; no se observó ni entrevistó a las personas nombradas.",
+  "perfiles": [
+    {
+      "name": "Rodrigo Soto",
+      "role": "Empresa · familiaridad media",
+      "partial": [
+        4,
+        8,
+        12,
+        13,
+        18
+      ],
+      "na": [
+        11
+      ],
+      "difficult": "Distinguir un horario publicado de una reserva y comprender el siguiente paso contractual.",
+      "change": "Añadir una explicación breve junto a los estados del calendario.",
+      "opinion": "La página se ve ordenada y entiendo qué servicios puedo contratar. Al elegir una fecha me ayudaría ver más claro si ese horario está libre o si ya hay una reserva. También agradecería un resumen corto antes de aceptar el acuerdo.",
+      "recuentos_simulados": {
+        "Cumple": 12,
+        "Parcial": 5,
+        "No aplica": 1
+      }
+    },
+    {
+      "name": "Benjamín Espinoza",
+      "role": "Profesional · familiaridad media",
+      "partial": [
+        8,
+        10,
+        11,
+        13,
+        18
+      ],
+      "na": [],
+      "difficult": "Interpretar los requisitos del respaldo profesional y las condiciones de una etapa.",
+      "change": "Dar ejemplos breves de documentos admitidos y resumir los pasos para publicar.",
+      "opinion": "Me sirve que el sistema diga qué me falta para aparecer en la vitrina. Preferiría ejemplos más sencillos al subir los documentos y una explicación corta de lo que pasa después de la entrevista. Los botones y los estados se entienden en general.",
+      "recuentos_simulados": {
+        "Cumple": 13,
+        "Parcial": 5,
+        "No aplica": 0
+      }
+    },
+    {
+      "name": "Valeska Ugarte",
+      "role": "Administración · familiaridad baja",
+      "partial": [
+        4,
+        8,
+        12,
+        13,
+        15,
+        18
+      ],
+      "na": [],
+      "difficult": "Ubicar la acción administrativa correcta en un expediente con varias etapas.",
+      "change": "Resaltar quién debe actuar y usar explicaciones más breves en los acuerdos.",
+      "opinion": "Puedo revisar el perfil y ver por qué está pendiente, lo que me parece útil. Cuando hay varias etapas y estados necesito leer bastante para saber qué hacer. Me gustaría que el próximo paso estuviera más destacado y que el calendario explicara mejor los días sin actividad.",
+      "recuentos_simulados": {
+        "Cumple": 12,
+        "Parcial": 6,
+        "No aplica": 0
+      }
+    }
+  ],
+  "tiempos_reales_medidos": false,
+  "resultados_humanos_observados": false,
+  "mejoras": "Propuestas a validar, no implementaciones atribuidas a usuarios."
+}
