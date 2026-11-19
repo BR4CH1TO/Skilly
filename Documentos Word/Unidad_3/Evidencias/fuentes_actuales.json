@@ -40,6 +40,8 @@
     "backend/core/views.py": "92711df107b5f3db00c9ede2f064d8f6f0c1d6acf21762caa05f3dff44bca75d",
     "backend/core/workflow.py": "f298e45378ac61ee2782b48040f447358b99d61794f6a90737fb1ed6c3c860d1",
     "backend/core/workflow_views.py": "d71932849b205e49131b3b5a3dec0843ea137ef1044cbcfaf739adb2a28df689",
+    "backend/gunicorn.conf.py": "2a7e8ccbf379ff683478b4ec7179cac473f7c1ba099d239648ef50a6bf3079ca",
+    "backend/manage.py": "30428108646cb4ce4db65635c073005a74654b2a908655f130880771e7493c14",
     "css/admin-tools.css": "dd22621788f57945061fc62fd7a08db7b6520eda525eb6d45724346328515736",
     "css/contracts.css": "c3e9dd82e16cab5cd8b50bba4df46705ddff8b3d83976af7605992c6ef55f19a",
     "css/public.css": "5711d53f5b7945f70ae52bba77c25fbbe7aa319a53a140bed5c1b2f7b94b8e92",
@@ -58,5 +60,9 @@
     "pages/public.html": "53c02b609b898d6ea5af1737a520870fbf04d44298d81678cc94068f88a94a14",
     "pages/terms.html": "fd94eda6bc7f79922547b9e065959439346a2bba7c6c3f08cc5be9c2b11de3e6"
   },
-  "sha256_conjunto": "5533818476883d04aaa7cf5cb327220a12d34b5279786f67f90466b2bbeb497f"
+  "sha256_conjunto": "af3e94053880e75a87313e099f4d523377e79556d7a2fc8e581152c41959501f",
+  "dependencias": {
+    "backend/requirements.txt": "0e8a7cf29c4bdb73742312b8a8eeccd2ca44658930640b8ce13ef19628394c11",
+    "backend/.env.example": "93e4de857570cca705e82e6fa91ffc2ea3b94254ce868a9e583d6832e97cb7e7"
+  }
 }

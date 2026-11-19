@@ -1,0 +1,17 @@
+{
+  "fecha": "2026-11-19",
+  "resultado": "APROBADO",
+  "colecciones": 14,
+  "registros_exportados": 59,
+  "cuentas_nuevas": 3,
+  "comprobaciones": [
+    "Índice compuesto incluido en importación",
+    "Reimportación rechazada sin sobrescribir",
+    "Catálogo de la copia disponible",
+    "Acceso admin",
+    "Acceso empresa",
+    "Acceso profesional",
+    "Descarga privada de PDF ficticio"
+  ],
+  "limite": "Ejecutado en macOS; no acredita ejecución nativa Windows."
+}
