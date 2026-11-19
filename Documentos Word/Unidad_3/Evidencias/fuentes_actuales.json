@@ -64,7 +64,7 @@
   },
   "sha256_conjunto": "2288108ea01f96fabf13ea140169d07663142c0d7ceddce8b0ae0675a8f2d3f8",
   "dependencias": {
-    "backend/requirements.txt": "0e8a7cf29c4bdb73742312b8a8eeccd2ca44658930640b8ce13ef19628394c11",
-    "backend/.env.example": "93e4de857570cca705e82e6fa91ffc2ea3b94254ce868a9e583d6832e97cb7e7"
+    "backend/.env.example": "93e4de857570cca705e82e6fa91ffc2ea3b94254ce868a9e583d6832e97cb7e7",
+    "backend/requirements.in": "f831f7f07dcbb3a6dd758400954cdf66b697be9abedf67d36d236fee28f725dd"
   }
 }

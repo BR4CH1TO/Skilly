@@ -15,3 +15,5 @@ backend/private_backups/
 .mypy_cache/
 *.mov
 *.mp4
+
+.ruff_cache/
