@@ -1,0 +1,240 @@
+[
+  {
+    "_id": "servicio-marketing",
+    "_version": 7,
+    "categoria": "Marketing Digital",
+    "descripcion": "Diseño de una estrategia digital orientada a los objetivos de la organización.",
+    "disponible": true,
+    "duracion": "4 horas aprox.",
+    "id": "servicio-marketing",
+    "precio": 380000,
+    "profesionalId": "fernanda",
+    "titulo": "Estrategia de marketing digital",
+    "revision": {
+      "reglasVersion": "2026.10.29",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "aprobado",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "aprobado",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "publicado",
+      "responsable": "Profesional",
+      "siguientePaso": "Servicio disponible para solicitudes.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-29T14:05:19.168075Z",
+      "huella": "33adc221946e901b6a9fdf642fa34136022650ab8b345b814e0d2eeb546f92b5"
+    },
+    "demostracion": true,
+    "entregables": "Documento de estrategia digital y plan de acciones priorizadas. Servicio de demostración para explorar el recorrido de solicitud."
+  },
+  {
+    "_id": "servicio-ux",
+    "_version": 5,
+    "categoria": "Desarrollo Digital",
+    "descripcion": "Diseño UX/UI de una solución web centrada en la experiencia de usuario.",
+    "disponible": false,
+    "duracion": "4 horas aprox.",
+    "id": "servicio-ux",
+    "precio": 650000,
+    "profesionalId": "matias",
+    "titulo": "Sitio web UX/UI profesional",
+    "revision": {
+      "reglasVersion": "2026.10.29",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "pendiente",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "pendiente",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "correccion",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los puntos pendientes y volver a enviar.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-29T14:05:19.173894Z",
+      "huella": "535f405353de68ca43c004cf7a697ee81921825d4dde29ed74eb9acac5a0460c"
+    }
+  },
+  {
+    "_id": "servicio-cultura",
+    "_version": 5,
+    "categoria": "Personas y Cultura",
+    "descripcion": "Servicio demostrativo asociado al análisis de personas y cultura.",
+    "disponible": false,
+    "duracion": "4 horas aprox.",
+    "id": "servicio-cultura",
+    "precio": 250000,
+    "profesionalId": "valentina",
+    "titulo": "Diagnóstico de cultura organizacional",
+    "revision": {
+      "reglasVersion": "2026.10.29",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "pendiente",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "pendiente",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "correccion",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los puntos pendientes y volver a enviar.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-29T14:05:19.177508Z",
+      "huella": "f7efbca2aa06589bea9995e6542978e2962b18d51b8bc4bc285493cbe336804a"
+    }
+  },
+  {
+    "_id": "servicio-procesos",
+    "_version": 5,
+    "categoria": "Gestión",
+    "descripcion": "Servicio demostrativo orientado a la revisión y mejora de procesos.",
+    "disponible": false,
+    "duracion": "4 horas aprox.",
+    "id": "servicio-procesos",
+    "precio": 300000,
+    "profesionalId": "ignacio",
+    "titulo": "Optimización de procesos",
+    "revision": {
+      "reglasVersion": "2026.10.29",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "pendiente",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "pendiente",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "correccion",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los puntos pendientes y volver a enviar.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-29T14:05:19.181920Z",
+      "huella": "dfd098d3fdc7c2b9dee37de68d29a2f0d655de8a4bc6b6a6e1a2af3ed2aad975"
+    }
+  }
+]

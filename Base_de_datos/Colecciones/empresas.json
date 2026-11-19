@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "nova",
+    "_version": 1,
+    "contacto": "Contacto de demostración",
+    "correo": "demo-bdbc8e77@example.invalid",
+    "descripcion": "Organización demostrativa vinculada a tecnología e innovación.",
+    "estado": "activa",
+    "id": "nova",
+    "miembroDesde": "Marzo 2026",
+    "nombre": "Empresa Nova",
+    "rubro": "Tecnología e innovación"
+  },
+  {
+    "_id": "digital-sur",
+    "_version": 1,
+    "contacto": "Contacto de demostración",
+    "correo": "demo-b670b318@example.invalid",
+    "descripcion": "Organización orientada a servicios y soluciones digitales.",
+    "estado": "activa",
+    "id": "digital-sur",
+    "miembroDesde": "Abril 2026",
+    "nombre": "Digital Sur",
+    "rubro": "Servicios digitales"
+  },
+  {
+    "_id": "innova",
+    "_version": 1,
+    "contacto": "Contacto de demostración",
+    "correo": "demo-76ba0117@example.invalid",
+    "descripcion": "Organización demostrativa relacionada con consultoría.",
+    "estado": "activa",
+    "id": "innova",
+    "miembroDesde": "Mayo 2026",
+    "nombre": "Innova Chile",
+    "rubro": "Consultoría"
+  }
+]

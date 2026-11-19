@@ -1,0 +1,288 @@
+[
+  {
+    "_id": "fernanda",
+    "_version": 6,
+    "antecedentes": "Revisados",
+    "autorizacion": "Registrada",
+    "estado": "validado",
+    "etapa": "Profesional validado",
+    "primeraEntrevista": "Realizada",
+    "profesionalId": "fernanda",
+    "segundaEntrevista": "No requerida",
+    "revision": {
+      "reglasVersion": "2026.10.29",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "aprobado",
+          "detalle": "Estructura PDF y tamaño comprobados. Autenticidad no verificada externamente."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "aprobado",
+          "detalle": "Estructura PDF y tamaño comprobados. Autenticidad no verificada externamente."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "aprobado",
+          "detalle": "Entrevista aprobada por el equipo de validación."
+        }
+      ],
+      "etapa": "Profesional validado",
+      "estado": "validado",
+      "responsable": "Profesional",
+      "siguientePaso": "Publicar servicios para su revisión automática.",
+      "justificacion": "El sistema habilitó el perfil porque cumple todos los requisitos de información y documentación, y tiene registrada una entrevista aprobada por el equipo de validación.",
+      "demostracion": true,
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-29T14:05:19.159626Z",
+      "huella": "8afd09e4d79ce7685eccde569ad2a9c845ae31311f0573f151801eb52f2a2d3f"
+    },
+    "entrevista": {
+      "resultado": "aprobada",
+      "responsable": "Equipo de validación · demostración",
+      "observaciones": "Escenario de demostración: entrevista simulada aprobada; el perfil explica su experiencia y alcance de servicios de acuerdo con los criterios del caso.",
+      "enlace": "https://example.invalid/demostracion",
+      "fecha": "2026-10-15T14:24:50.240576+00:00",
+      "registradaEn": "2026-10-15T15:24:50.240582Z",
+      "demostracion": true
+    }
+  },
+  {
+    "_id": "matias",
+    "_version": 6,
+    "antecedentes": "Revisados",
+    "autorizacion": "Registrada",
+    "estado": "rechazado",
+    "etapa": "Entrevista rechazada",
+    "primeraEntrevista": "Realizada",
+    "profesionalId": "matias",
+    "segundaEntrevista": "No requerida",
+    "revision": {
+      "reglasVersion": "2026.10.29",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "aprobado",
+          "detalle": "Estructura PDF y tamaño comprobados. Autenticidad no verificada externamente."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "aprobado",
+          "detalle": "Estructura PDF y tamaño comprobados. Autenticidad no verificada externamente."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "rechazado",
+          "detalle": "Entrevista rechazada: Escenario de demostración: en la entrevista simulada no se sustentan los ejemplos de experiencia y el alcance de los servicios requeridos para este caso. No describe una evaluación real del profesional."
+        }
+      ],
+      "etapa": "Entrevista rechazada",
+      "estado": "rechazado",
+      "responsable": "Profesional",
+      "siguientePaso": "Consultar las observaciones de la entrevista.",
+      "justificacion": "El sistema no habilitó el perfil porque la entrevista fue rechazada por el equipo de validación. Motivo registrado: Escenario de demostración: en la entrevista simulada no se sustentan los ejemplos de experiencia y el alcance de los servicios requeridos para este caso. No describe una evaluación real del profesional.",
+      "demostracion": true,
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-29T14:05:19.171581Z",
+      "huella": "acfe2563d428086ca528918136f1154d9e7c44a7f6da6bc76df79903bb3fc76e"
+    },
+    "entrevista": {
+      "resultado": "rechazada",
+      "responsable": "Equipo de validación · demostración",
+      "observaciones": "Escenario de demostración: en la entrevista simulada no se sustentan los ejemplos de experiencia y el alcance de los servicios requeridos para este caso. No describe una evaluación real del profesional.",
+      "enlace": "https://example.invalid/demostracion",
+      "fecha": "2026-10-15T14:24:50.283194+00:00",
+      "registradaEn": "2026-10-15T15:24:50.283200Z",
+      "demostracion": true
+    }
+  },
+  {
+    "_id": "valentina",
+    "_version": 5,
+    "antecedentes": "Registrados",
+    "autorizacion": "Pendiente",
+    "estado": "revision",
+    "etapa": "Completar antecedentes",
+    "primeraEntrevista": "Pendiente",
+    "profesionalId": "valentina",
+    "segundaEntrevista": "No definida",
+    "revision": {
+      "reglasVersion": "2026.10.29",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "pendiente",
+          "detalle": "El equipo de validación debe realizar la entrevista online."
+        }
+      ],
+      "etapa": "Completar antecedentes",
+      "estado": "revision",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los requisitos pendientes y volver a revisar.",
+      "justificacion": "El perfil aún no cumple todos los requisitos. Falta completar: Currículum, Respaldo de formación o experiencia, Entrevista online.",
+      "demostracion": false,
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-29T14:05:19.175856Z",
+      "huella": "24572e3f23562ab65bf49511d036bc659148ae0fed8a6829086ab143487c5816"
+    }
+  },
+  {
+    "_id": "ignacio",
+    "_version": 5,
+    "antecedentes": "Revisados",
+    "autorizacion": "Pendiente",
+    "estado": "revision",
+    "etapa": "Completar antecedentes",
+    "primeraEntrevista": "Realizada",
+    "profesionalId": "ignacio",
+    "segundaEntrevista": "Pendiente",
+    "revision": {
+      "reglasVersion": "2026.10.29",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "pendiente",
+          "detalle": "El equipo de validación debe realizar la entrevista online."
+        }
+      ],
+      "etapa": "Completar antecedentes",
+      "estado": "revision",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los requisitos pendientes y volver a revisar.",
+      "justificacion": "El perfil aún no cumple todos los requisitos. Falta completar: Currículum, Respaldo de formación o experiencia, Entrevista online.",
+      "demostracion": false,
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-29T14:05:19.179679Z",
+      "huella": "4f34bf197b483fd24fd8f3c92400c019b45b2a500be2953dfa74eb3ca23acb1b"
+    }
+  }
+]

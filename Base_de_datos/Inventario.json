@@ -1,0 +1,990 @@
+{
+  "formato": 1,
+  "base_destino": "skilly_evaluacion",
+  "fecha_UTC": "2026-11-12T15:23:26.845877+00:00",
+  "descripcion": "Copia de demostración: sin usuarios, sesiones ni intentos originales; contactos anonimizados y PDF sustituidos por documentos ficticios.",
+  "colecciones": {
+    "agendas": {
+      "archivo": "Colecciones/agendas.json",
+      "documentos": 1,
+      "sha256": "b9ec3be3eb109a069ee797e4db9182c674bd0ee31a2a053575dfb437e1d25fe4",
+      "options": {
+        "validator": {
+          "$jsonSchema": {
+            "bsonType": "object",
+            "required": [
+              "_id",
+              "_version",
+              "solicitudId",
+              "empresaId",
+              "profesionalId",
+              "servicioId",
+              "fecha",
+              "estado"
+            ],
+            "properties": {
+              "_id": {
+                "bsonType": "string"
+              },
+              "_version": {
+                "bsonType": [
+                  "int",
+                  "long"
+                ],
+                "minimum": 1
+              },
+              "solicitudId": {
+                "bsonType": "string"
+              },
+              "empresaId": {
+                "bsonType": "string"
+              },
+              "profesionalId": {
+                "bsonType": "string"
+              },
+              "servicioId": {
+                "bsonType": "string"
+              },
+              "fecha": {
+                "bsonType": "date"
+              },
+              "estado": {
+                "bsonType": "string",
+                "enum": [
+                  "cancelado",
+                  "confirmado",
+                  "finalizado",
+                  "propuesto",
+                  "realizado"
+                ]
+              }
+            }
+          }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+      },
+      "indices": [
+        {
+          "key": [
+            [
+              "empresaId",
+              1
+            ]
+          ],
+          "options": {
+            "name": "empresaId_1"
+          }
+        },
+        {
+          "key": [
+            [
+              "profesionalId",
+              1
+            ]
+          ],
+          "options": {
+            "name": "profesionalId_1"
+          }
+        },
+        {
+          "key": [
+            [
+              "servicioId",
+              1
+            ]
+          ],
+          "options": {
+            "name": "servicioId_1"
+          }
+        },
+        {
+          "key": [
+            [
+              "estado",
+              1
+            ]
+          ],
+          "options": {
+            "name": "estado_1"
+          }
+        },
+        {
+          "key": [
+            [
+              "solicitudId",
+              1
+            ]
+          ],
+          "options": {
+            "name": "solicitudId_1",
+            "unique": true,
+            "partialFilterExpression": {
+              "estado": {
+                "$in": [
+                  "propuesto",
+                  "confirmado",
+                  "realizado",
+                  "finalizado"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key": [
+            [
+              "profesionalId",
+              1
+            ],
+            [
+              "fecha",
+              1
+            ]
+          ],
+          "options": {
+            "name": "profesionalId_1_fecha_1",
+            "unique": true,
+            "partialFilterExpression": {
+              "estado": {
+                "$in": [
+                  "propuesto",
+                  "confirmado",
+                  "realizado",
+                  "finalizado"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "key": [
+            [
+              "claveOperacion",
+              1
+            ]
+          ],
+          "options": {
+            "name": "claveOperacion_1",
+            "unique": true,
+            "partialFilterExpression": {
+              "claveOperacion": {
+                "$type": "string"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "atencion": {
+      "archivo": "Colecciones/atencion.json",
+      "documentos": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "options": {},
+      "indices": [
+        {
+          "key": [
+            [
+              "usuarioId",
+              1
+            ],
+            [
+              "fecha",
+              -1
+            ]
+          ],
+          "options": {
+            "name": "usuarioId_1_fecha_-1"
+          }
+        }
+      ]
+    },
+    "contratos": {
+      "archivo": "Colecciones/contratos.json",
+      "documentos": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "options": {},
+      "indices": [
+        {
+          "key": [
+            [
+              "agendaId",
+              1
+            ]
+          ],
+          "options": {
+            "name": "agendaId_1",
+            "unique": true
+          }
+        },
+        {
+          "key": [
+            [
+              "empresaId",
+              1
+            ],
+            [
+              "creadoEn",
+              -1
+            ]
+          ],
+          "options": {
+            "name": "empresaId_1_creadoEn_-1"
+          }
+        },
+        {
+          "key": [
+            [
+              "profesionalId",
+              1
+            ],
+            [
+              "creadoEn",
+              -1
+            ]
+          ],
+          "options": {
+            "name": "profesionalId_1_creadoEn_-1"
+          }
+        }
+      ]
+    },
+    "empresas": {
+      "archivo": "Colecciones/empresas.json",
+      "documentos": 3,
+      "sha256": "109d6aff8251e6224f560e26515ea75dbd77f51830fd1f8338ec10253d515082",
+      "options": {
+        "validator": {
+          "$jsonSchema": {
+            "bsonType": "object",
+            "required": [
+              "_id",
+              "_version",
+              "nombre",
+              "correo",
+              "estado"
+            ],
+            "properties": {
+              "_id": {
+                "bsonType": "string"
+              },
+              "_version": {
+                "bsonType": [
+                  "int",
+                  "long"
+                ],
+                "minimum": 1
+              },
+              "nombre": {
+                "bsonType": "string"
+              },
+              "correo": {
+                "bsonType": "string"
+              },
+              "estado": {
+                "bsonType": "string",
+                "enum": [
+                  "activa",
+                  "inactiva"
+                ]
+              }
+            }
+          }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+      },
+      "indices": [
+        {
+          "key": [
+            [
+              "estado",
+              1
+            ]
+          ],
+          "options": {
+            "name": "estado_1"
+          }
+        },
+        {
+          "key": [
+            [
+              "nombre",
+              1
+            ]
+          ],
+          "options": {
+            "name": "nombre_1"
+          }
+        }
+      ]
+    },
+    "historial": {
+      "archivo": "Colecciones/historial.json",
+      "documentos": 6,
+      "sha256": "4bc9fe7c8412f435d4b234b6be6c2af6e91b544f807d2a97a88a35ee00e48536",
+      "options": {
+        "validator": {
+          "$jsonSchema": {
+            "bsonType": "object",
+            "required": [
+              "_id",
+              "_version",
+              "tipo",
+              "titulo",
+              "descripcion",
+              "fecha"
+            ],
+            "properties": {
+              "_id": {
+                "bsonType": "string"
+              },
+              "_version": {
+                "bsonType": [
+                  "int",
+                  "long"
+                ],
+                "minimum": 1
+              },
+              "tipo": {
+                "bsonType": "string"
+              },
+              "titulo": {
+                "bsonType": "string"
+              },
+              "descripcion": {
+                "bsonType": "string"
+              },
+              "fecha": {
+                "bsonType": "date"
+              }
+            }
+          }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+      },
+      "indices": [
+        {
+          "key": [
+            [
+              "fecha",
+              -1
+            ]
+          ],
+          "options": {
+            "name": "fecha_-1"
+          }
+        }
+      ]
+    },
+    "intentos": {
+      "archivo": "Colecciones/intentos.json",
+      "documentos": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "options": {},
+      "indices": [
+        {
+          "key": [
+            [
+              "expiresAt",
+              1
+            ]
+          ],
+          "options": {
+            "name": "expiresAt_1",
+            "expireAfterSeconds": 0
+          }
+        }
+      ]
+    },
+    "pagos": {
+      "archivo": "Colecciones/pagos.json",
+      "documentos": 1,
+      "sha256": "76bfce3ed29c581dfcfbfa3d0967dbede682d1059f789905c244edfe7d162032",
+      "options": {
+        "validator": {
+          "$jsonSchema": {
+            "bsonType": "object",
+            "required": [
+              "_id",
+              "_version",
+              "agendaId",
+              "solicitudId",
+              "empresaId",
+              "profesionalId",
+              "servicioId",
+              "monto",
+              "fecha",
+              "estado"
+            ],
+            "properties": {
+              "_id": {
+                "bsonType": "string"
+              },
+              "_version": {
+                "bsonType": [
+                  "int",
+                  "long"
+                ],
+                "minimum": 1
+              },
+              "agendaId": {
+                "bsonType": "string"
+              },
+              "solicitudId": {
+                "bsonType": "string"
+              },
+              "empresaId": {
+                "bsonType": "string"
+              },
+              "profesionalId": {
+                "bsonType": "string"
+              },
+              "servicioId": {
+                "bsonType": "string"
+              },
+              "monto": {
+                "bsonType": [
+                  "int",
+                  "long"
+                ],
+                "minimum": 0
+              },
+              "fecha": {
+                "bsonType": "date"
+              },
+              "estado": {
+                "bsonType": "string",
+                "enum": [
+                  "espera",
+                  "finalizado",
+                  "pagado",
+                  "pendiente"
+                ]
+              }
+            }
+          }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+      },
+      "indices": [
+        {
+          "key": [
+            [
+              "solicitudId",
+              1
+            ]
+          ],
+          "options": {
+            "name": "solicitudId_1"
+          }
+        },
+        {
+          "key": [
+            [
+              "empresaId",
+              1
+            ]
+          ],
+          "options": {
+            "name": "empresaId_1"
+          }
+        },
+        {
+          "key": [
+            [
+              "profesionalId",
+              1
+            ]
+          ],
+          "options": {
+            "name": "profesionalId_1"
+          }
+        },
+        {
+          "key": [
+            [
+              "servicioId",
+              1
+            ]
+          ],
+          "options": {
+            "name": "servicioId_1"
+          }
+        },
+        {
+          "key": [
+            [
+              "estado",
+              1
+            ]
+          ],
+          "options": {
+            "name": "estado_1"
+          }
+        },
+        {
+          "key": [
+            [
+              "agendaId",
+              1
+            ]
+          ],
+          "options": {
+            "name": "agendaId_1",
+            "unique": true
+          }
+        }
+      ]
+    },
+    "profesionales": {
+      "archivo": "Colecciones/profesionales.json",
+      "documentos": 4,
+      "sha256": "d9cb5aab137cc6766db250d09914f4ed7ca29c2a49575bb88484cb721289109d",
+      "options": {
+        "validator": {
+          "$jsonSchema": {
+            "bsonType": "object",
+            "required": [
+              "_id",
+              "_version",
+              "nombre",
+              "profesion",
+              "estado"
+            ],
+            "properties": {
+              "_id": {
+                "bsonType": "string"
+              },
+              "_version": {
+                "bsonType": [
+                  "int",
+                  "long"
+                ],
+                "minimum": 1
+              },
+              "nombre": {
+                "bsonType": "string"
+              },
+              "profesion": {
+                "bsonType": "string"
+              },
+              "estado": {
+                "bsonType": "string",
+                "enum": [
+                  "rechazado",
+                  "revision",
+                  "segunda",
+                  "validado"
+                ]
+              }
+            }
+          }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+      },
+      "indices": [
+        {
+          "key": [
+            [
+              "estado",
+              1
+            ]
+          ],
+          "options": {
+            "name": "estado_1"
+          }
+        },
+        {
+          "key": [
+            [
+              "nombre",
+              1
+            ]
+          ],
+          "options": {
+            "name": "nombre_1"
+          }
+        },
+        {
+          "key": [
+            [
+              "estado",
+              1
+            ],
+            [
+              "nombre",
+              1
+            ],
+            [
+              "_id",
+              1
+            ]
+          ],
+          "options": {
+            "name": "catalogo_profesionales"
+          }
+        }
+      ]
+    },
+    "revisiones": {
+      "archivo": "Colecciones/revisiones.json",
+      "documentos": 33,
+      "sha256": "cfebb983edf40e971718731b7bbac58696ddccdf7ae58dc92d18925e7a83a218",
+      "options": {},
+      "indices": [
+        {
+          "key": [
+            [
+              "recurso",
+              1
+            ],
+            [
+              "registroId",
+              1
+            ],
+            [
+              "fecha",
+              -1
+            ]
+          ],
+          "options": {
+            "name": "recurso_1_registroId_1_fecha_-1"
+          }
+        }
+      ]
+    },
+    "servicios": {
+      "archivo": "Colecciones/servicios.json",
+      "documentos": 4,
+      "sha256": "9d983c9482ea44c50f5793e153bf0a292c0ea1db6208504cb397b41ed7481340",
+      "options": {
+        "validator": {
+          "$jsonSchema": {
+            "bsonType": "object",
+            "required": [
+              "_id",
+              "_version",
+              "titulo",
+              "profesionalId",
+              "precio",
+              "disponible"
+            ],
+            "properties": {
+              "_id": {
+                "bsonType": "string"
+              },
+              "_version": {
+                "bsonType": [
+                  "int",
+                  "long"
+                ],
+                "minimum": 1
+              },
+              "titulo": {
+                "bsonType": "string"
+              },
+              "profesionalId": {
+                "bsonType": "string"
+              },
+              "precio": {
+                "bsonType": [
+                  "int",
+                  "long"
+                ],
+                "minimum": 0
+              },
+              "disponible": {
+                "bsonType": "bool"
+              }
+            }
+          }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+      },
+      "indices": [
+        {
+          "key": [
+            [
+              "profesionalId",
+              1
+            ]
+          ],
+          "options": {
+            "name": "profesionalId_1"
+          }
+        }
+      ]
+    },
+    "sesiones": {
+      "archivo": "Colecciones/sesiones.json",
+      "documentos": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "options": {},
+      "indices": [
+        {
+          "key": [
+            [
+              "expiresAt",
+              1
+            ]
+          ],
+          "options": {
+            "name": "expiresAt_1",
+            "expireAfterSeconds": 0
+          }
+        },
+        {
+          "key": [
+            [
+              "usuarioId",
+              1
+            ]
+          ],
+          "options": {
+            "name": "usuarioId_1"
+          }
+        }
+      ]
+    },
+    "solicitudes": {
+      "archivo": "Colecciones/solicitudes.json",
+      "documentos": 3,
+      "sha256": "9795b781c6b2a35d5cef5f070d5e380ca2deae2067bb09fb6eeb529af02ae58a",
+      "options": {
+        "validator": {
+          "$jsonSchema": {
+            "bsonType": "object",
+            "required": [
+              "_id",
+              "_version",
+              "empresaId",
+              "profesionalId",
+              "servicioId",
+              "fecha",
+              "expiracion",
+              "estado"
+            ],
+            "properties": {
+              "_id": {
+                "bsonType": "string"
+              },
+              "_version": {
+                "bsonType": [
+                  "int",
+                  "long"
+                ],
+                "minimum": 1
+              },
+              "empresaId": {
+                "bsonType": "string"
+              },
+              "profesionalId": {
+                "bsonType": "string"
+              },
+              "servicioId": {
+                "bsonType": "string"
+              },
+              "fecha": {
+                "bsonType": "date"
+              },
+              "expiracion": {
+                "bsonType": "date"
+              },
+              "estado": {
+                "bsonType": "string",
+                "enum": [
+                  "aceptada",
+                  "expirada",
+                  "pendiente",
+                  "rechazada"
+                ]
+              }
+            }
+          }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+      },
+      "indices": [
+        {
+          "key": [
+            [
+              "empresaId",
+              1
+            ]
+          ],
+          "options": {
+            "name": "empresaId_1"
+          }
+        },
+        {
+          "key": [
+            [
+              "profesionalId",
+              1
+            ]
+          ],
+          "options": {
+            "name": "profesionalId_1"
+          }
+        },
+        {
+          "key": [
+            [
+              "servicioId",
+              1
+            ]
+          ],
+          "options": {
+            "name": "servicioId_1"
+          }
+        },
+        {
+          "key": [
+            [
+              "estado",
+              1
+            ]
+          ],
+          "options": {
+            "name": "estado_1"
+          }
+        },
+        {
+          "key": [
+            [
+              "claveOperacion",
+              1
+            ]
+          ],
+          "options": {
+            "name": "claveOperacion_1",
+            "unique": true,
+            "partialFilterExpression": {
+              "claveOperacion": {
+                "$type": "string"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "usuarios": {
+      "archivo": "Colecciones/usuarios.json",
+      "documentos": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "options": {},
+      "indices": [
+        {
+          "key": [
+            [
+              "correo",
+              1
+            ]
+          ],
+          "options": {
+            "name": "correo_1",
+            "unique": true
+          }
+        },
+        {
+          "key": [
+            [
+              "perfilId",
+              1
+            ]
+          ],
+          "options": {
+            "name": "perfilId_1",
+            "unique": true,
+            "partialFilterExpression": {
+              "perfilId": {
+                "$type": "string"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "validaciones": {
+      "archivo": "Colecciones/validaciones.json",
+      "documentos": 4,
+      "sha256": "bbd3e45afaec2c41f27f8b1b4c8d4ffd526ef20322db8da885af1277eda7e147",
+      "options": {
+        "validator": {
+          "$jsonSchema": {
+            "bsonType": "object",
+            "required": [
+              "_id",
+              "_version",
+              "profesionalId",
+              "estado"
+            ],
+            "properties": {
+              "_id": {
+                "bsonType": "string"
+              },
+              "_version": {
+                "bsonType": [
+                  "int",
+                  "long"
+                ],
+                "minimum": 1
+              },
+              "profesionalId": {
+                "bsonType": "string"
+              },
+              "estado": {
+                "bsonType": "string",
+                "enum": [
+                  "rechazado",
+                  "revision",
+                  "segunda",
+                  "validado"
+                ]
+              }
+            }
+          }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+      },
+      "indices": [
+        {
+          "key": [
+            [
+              "estado",
+              1
+            ]
+          ],
+          "options": {
+            "name": "estado_1"
+          }
+        },
+        {
+          "key": [
+            [
+              "profesionalId",
+              1
+            ]
+          ],
+          "options": {
+            "name": "profesionalId_1",
+            "unique": true
+          }
+        }
+      ]
+    }
+  },
+  "archivos_pdf": {
+    "b039e7ab-beff-4df7-bb5d-3d41b3c435f4.pdf": "7c2d46905345bc36756ebffb37ecdc8d405d9ab57a9dbc2ea6b864d086a9afd1",
+    "7d133c83-4a1b-4ad5-873d-14010156e5fd.pdf": "468a737cc44c0026be547a30880ea0fbfb096aaf4cea416794c391bdeb38cd57",
+    "7efdc2e2-5363-472e-be86-4017ef2a4507.pdf": "bb9f4cb0223677857f0a743541a60daa350888bcfec7eb92551b201593e2a467",
+    "d24de79a-f043-492c-90bf-e79a468b7685.pdf": "9e98fc81f980fc7dddddab513c5b58a2fef92bae38644228348f0bb5605c3a24"
+  }
+}

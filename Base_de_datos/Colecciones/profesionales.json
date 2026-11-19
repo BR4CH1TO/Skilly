@@ -1,0 +1,265 @@
+[
+  {
+    "_id": "fernanda",
+    "_version": 6,
+    "cumplimiento": "98%",
+    "cursos": [
+      "Estrategia digital",
+      "Analítica de marketing",
+      "Gestión de campañas"
+    ],
+    "disponibilidad": [
+      "2026-09-25T10:00",
+      "2026-09-25T15:00",
+      "2026-09-26T09:00",
+      "2026-09-26T14:00",
+      "2026-09-29T11:00"
+    ],
+    "educacion": [
+      {
+        "titulo": "Ingeniería Comercial",
+        "institucion": "Educación superior",
+        "periodo": "Formación profesional"
+      },
+      {
+        "titulo": "Diplomado en Marketing Digital",
+        "institucion": "Formación complementaria",
+        "periodo": "Especialización"
+      }
+    ],
+    "empresas": 6,
+    "especialidad": "Marketing y estrategia digital",
+    "estado": "validado",
+    "estadoTexto": "Profesional validado",
+    "experiencia": "8 años",
+    "experienciaLaboral": [
+      {
+        "cargo": "Consultora de Marketing Digital",
+        "empresa": "Profesional independiente",
+        "periodo": "2022 - Actualidad"
+      },
+      {
+        "cargo": "Especialista de Marketing",
+        "empresa": "Agencia Digital",
+        "periodo": "2019 - 2022"
+      }
+    ],
+    "habilidades": [
+      "Marketing digital",
+      "Estrategia",
+      "Planificación",
+      "Contenido",
+      "Analítica"
+    ],
+    "id": "fernanda",
+    "iniciales": "FR",
+    "linkedin": "https://example.invalid/demostracion",
+    "nombre": "Fernanda Rojas",
+    "profesion": "Especialista en Marketing Digital",
+    "resumen": "Profesional especializada en estrategia digital, posicionamiento de marca y planificación de campañas para organizaciones.",
+    "serviciosRealizados": 14,
+    "ubicacion": "Santiago, Chile",
+    "estadoAnteriorProceso": "validado",
+    "validacionProceso": "8afd09e4d79ce7685eccde569ad2a9c845ae31311f0573f151801eb52f2a2d3f",
+    "demostracion": true,
+    "documentos": [
+      {
+        "id": "b039e7ab-beff-4df7-bb5d-3d41b3c435f4",
+        "tipo": "cv",
+        "nombre": "documento-demostracion.pdf",
+        "bytes": 636,
+        "sha256": "7c2d46905345bc36756ebffb37ecdc8d405d9ab57a9dbc2ea6b864d086a9afd1",
+        "fecha": "2026-10-15T15:24:50.236223Z",
+        "formatoComprobado": true,
+        "autenticidad": "no_verificada",
+        "demostracion": true,
+        "paginas": 1,
+        "metodo": "Estructura PDF verificada con pypdf",
+        "contenidoVerificado": false
+      },
+      {
+        "id": "7d133c83-4a1b-4ad5-873d-14010156e5fd",
+        "tipo": "formacion",
+        "nombre": "documento-demostracion.pdf",
+        "bytes": 643,
+        "sha256": "468a737cc44c0026be547a30880ea0fbfb096aaf4cea416794c391bdeb38cd57",
+        "fecha": "2026-10-15T15:24:50.236337Z",
+        "formatoComprobado": true,
+        "autenticidad": "no_verificada",
+        "demostracion": true,
+        "paginas": 1,
+        "metodo": "Estructura PDF verificada con pypdf",
+        "contenidoVerificado": false
+      }
+    ]
+  },
+  {
+    "_id": "matias",
+    "_version": 6,
+    "cumplimiento": "91%",
+    "cursos": [
+      "Diseño UX",
+      "Prototipado de interfaces",
+      "Investigación de usuarios"
+    ],
+    "disponibilidad": [
+      "2026-09-25T11:00",
+      "2026-09-25T16:00",
+      "2026-09-26T10:00",
+      "2026-09-26T15:00",
+      "2026-09-29T09:00"
+    ],
+    "educacion": [
+      {
+        "titulo": "Diseño Digital",
+        "institucion": "Educación superior",
+        "periodo": "Formación profesional"
+      }
+    ],
+    "empresas": 4,
+    "especialidad": "Diseño de productos digitales",
+    "estado": "rechazado",
+    "estadoTexto": "Entrevista rechazada",
+    "experiencia": "6 años",
+    "experienciaLaboral": [
+      {
+        "cargo": "Diseñador UX/UI",
+        "empresa": "Profesional independiente",
+        "periodo": "2021 - Actualidad"
+      }
+    ],
+    "habilidades": [
+      "UX",
+      "UI",
+      "Prototipado",
+      "Diseño web",
+      "Investigación"
+    ],
+    "id": "matias",
+    "iniciales": "MC",
+    "linkedin": "https://example.invalid/demostracion",
+    "nombre": "Matías Contreras",
+    "profesion": "Diseñador UX/UI",
+    "resumen": "Profesional orientado al diseño de experiencias digitales, interfaces y soluciones centradas en las necesidades de usuarios y organizaciones.",
+    "serviciosRealizados": 11,
+    "ubicacion": "Santiago, Chile",
+    "estadoAnteriorProceso": "validado",
+    "validacionProceso": "acfe2563d428086ca528918136f1154d9e7c44a7f6da6bc76df79903bb3fc76e",
+    "demostracion": true,
+    "documentos": [
+      {
+        "id": "7efdc2e2-5363-472e-be86-4017ef2a4507",
+        "tipo": "cv",
+        "nombre": "documento-demostracion.pdf",
+        "bytes": 636,
+        "sha256": "bb9f4cb0223677857f0a743541a60daa350888bcfec7eb92551b201593e2a467",
+        "fecha": "2026-10-15T15:24:50.282538Z",
+        "formatoComprobado": true,
+        "autenticidad": "no_verificada",
+        "demostracion": true,
+        "paginas": 1,
+        "metodo": "Estructura PDF verificada con pypdf",
+        "contenidoVerificado": false
+      },
+      {
+        "id": "d24de79a-f043-492c-90bf-e79a468b7685",
+        "tipo": "formacion",
+        "nombre": "documento-demostracion.pdf",
+        "bytes": 643,
+        "sha256": "9e98fc81f980fc7dddddab513c5b58a2fef92bae38644228348f0bb5605c3a24",
+        "fecha": "2026-10-15T15:24:50.282689Z",
+        "formatoComprobado": true,
+        "autenticidad": "no_verificada",
+        "demostracion": true,
+        "paginas": 1,
+        "metodo": "Estructura PDF verificada con pypdf",
+        "contenidoVerificado": false
+      }
+    ]
+  },
+  {
+    "_id": "valentina",
+    "_version": 5,
+    "cumplimiento": "Sin historial",
+    "cursos": [],
+    "disponibilidad": [],
+    "educacion": [
+      {
+        "titulo": "Formación profesional",
+        "institucion": "Antecedente demostrativo",
+        "periodo": "Pendiente de validación"
+      }
+    ],
+    "empresas": 0,
+    "especialidad": "Gestión de personas",
+    "estado": "revision",
+    "estadoTexto": "Completar antecedentes",
+    "experiencia": "5 años",
+    "experienciaLaboral": [
+      {
+        "cargo": "Consultora de Personas",
+        "empresa": "Experiencia externa",
+        "periodo": "Trayectoria previa"
+      }
+    ],
+    "habilidades": [
+      "Personas",
+      "Cultura",
+      "Gestión",
+      "Comunicación"
+    ],
+    "id": "valentina",
+    "iniciales": "VS",
+    "linkedin": "https://example.invalid/demostracion",
+    "nombre": "Valentina Soto",
+    "profesion": "Consultora de Personas y Cultura",
+    "resumen": "Profesional vinculada a procesos de gestión de personas y cultura organizacional.",
+    "serviciosRealizados": 0,
+    "ubicacion": "Santiago, Chile",
+    "estadoAnteriorProceso": "revision",
+    "validacionProceso": "24572e3f23562ab65bf49511d036bc659148ae0fed8a6829086ab143487c5816",
+    "documentos": []
+  },
+  {
+    "_id": "ignacio",
+    "_version": 5,
+    "cumplimiento": "Sin historial",
+    "cursos": [],
+    "disponibilidad": [],
+    "educacion": [
+      {
+        "titulo": "Formación profesional",
+        "institucion": "Antecedente demostrativo",
+        "periodo": "Pendiente de validación"
+      }
+    ],
+    "empresas": 0,
+    "especialidad": "Procesos y gestión organizacional",
+    "estado": "revision",
+    "estadoTexto": "Completar antecedentes",
+    "experiencia": "4 años",
+    "experienciaLaboral": [
+      {
+        "cargo": "Consultor",
+        "empresa": "Experiencia externa",
+        "periodo": "Trayectoria previa"
+      }
+    ],
+    "habilidades": [
+      "Gestión",
+      "Procesos",
+      "Organización"
+    ],
+    "id": "ignacio",
+    "iniciales": "IP",
+    "linkedin": "https://example.invalid/demostracion",
+    "nombre": "Ignacio Pérez",
+    "profesion": "Consultor de Gestión",
+    "resumen": "Profesional orientado a procesos de gestión y apoyo organizacional.",
+    "serviciosRealizados": 0,
+    "ubicacion": "Santiago, Chile",
+    "estadoAnteriorProceso": "revision",
+    "validacionProceso": "4f34bf197b483fd24fd8f3c92400c019b45b2a500be2953dfa74eb3ca23acb1b",
+    "documentos": []
+  }
+]

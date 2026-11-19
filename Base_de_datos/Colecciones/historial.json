@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "traza-1",
+    "_version": 1,
+    "descripcion": "Fernanda Rojas registra estado de validación dentro del prototipo.",
+    "fecha": {
+      "$date": "2026-09-24T12:00:00Z"
+    },
+    "id": "traza-1",
+    "tipo": "Validación",
+    "titulo": "Profesional validado"
+  },
+  {
+    "_id": "traza-2",
+    "_version": 1,
+    "descripcion": "Empresa Nova envió una solicitud a Fernanda Rojas.",
+    "fecha": {
+      "$date": "2026-09-25T13:30:00Z"
+    },
+    "id": "traza-2",
+    "tipo": "Solicitud",
+    "titulo": "Solicitud enviada"
+  },
+  {
+    "_id": "traza-3",
+    "_version": 1,
+    "descripcion": "La solicitud de Digital Sur fue aceptada por el profesional.",
+    "fecha": {
+      "$date": "2026-09-28T17:15:00Z"
+    },
+    "id": "traza-3",
+    "tipo": "Solicitud",
+    "titulo": "Solicitud aceptada"
+  },
+  {
+    "_id": "traza-4",
+    "_version": 1,
+    "descripcion": "Digital Sur registra un horario con Matías Contreras.",
+    "fecha": {
+      "$date": "2026-09-29T12:00:00Z"
+    },
+    "id": "traza-4",
+    "tipo": "Agendamiento",
+    "titulo": "Servicio agendado"
+  },
+  {
+    "_id": "523e5382-bab3-4dd0-98fa-0719a148cb1c",
+    "id": "523e5382-bab3-4dd0-98fa-0719a148cb1c",
+    "tipo": "Servicio",
+    "titulo": "Servicio realizado",
+    "descripcion": "Sitio web UX/UI profesional: avance simulado del profesional.",
+    "fecha": {
+      "$date": "2026-10-16T03:27:23.311Z"
+    },
+    "_version": 1
+  },
+  {
+    "_id": "2e6d3ed3-7f96-4bb1-a7e0-08e6faf03e63",
+    "id": "2e6d3ed3-7f96-4bb1-a7e0-08e6faf03e63",
+    "tipo": "Pago",
+    "titulo": "Pago procesado (simulación)",
+    "descripcion": "$650.000 · Sitio web UX/UI profesional",
+    "fecha": {
+      "$date": "2026-10-22T14:02:33.040Z"
+    },
+    "_version": 1
+  }
+]

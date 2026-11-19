@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "agenda-digital",
+    "empresaId": "digital-sur",
+    "estado": "realizado",
+    "fecha": {
+      "$date": "2026-09-29T12:00:00Z"
+    },
+    "id": "agenda-digital",
+    "profesionalId": "matias",
+    "servicioId": "servicio-ux",
+    "solicitudId": "solicitud-digital",
+    "_version": 3,
+    "pagoEstado": "pagado",
+    "precioAcordado": 650000,
+    "simulado": true
+  }
+]

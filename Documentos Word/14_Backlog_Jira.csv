@@ -1,0 +1,12 @@
+﻿Código,Jira,Actividad,Estado,Responsable,Prioridad,Inicio propuesto,Vence propuesto,Horas estimadas,Bloqueado por,URL
+C01,SCRUM-6,C01 · Confirmar alcance SQL/NoSQL y fecha de entrega,Por hacer,ANTONY BRACHO,Highest,2026-11-13,2026-11-13,2,,https://antonybracho65.atlassian.net/browse/SCRUM-6
+C02,SCRUM-7,C02 · Organizar backlog y sprint de cierre en Jira,Finalizado,ANTONY BRACHO,High,2026-11-12,2026-11-12,2,,https://antonybracho65.atlassian.net/browse/SCRUM-7
+C03,SCRUM-8,"C03 · Verificar UML, diccionario y scripts de datos",Finalizado,ANTONY BRACHO,High,2026-11-12,2026-11-12,4,,https://antonybracho65.atlassian.net/browse/SCRUM-8
+C04,SCRUM-9,C04 · Revisar manual y guía visual,Finalizado,ANTONY BRACHO,High,2026-11-12,2026-11-12,4,SCRUM-8,https://antonybracho65.atlassian.net/browse/SCRUM-9
+C05,SCRUM-10,C05 · Evaluar usabilidad con cinco usuarios reales,Por hacer,ANTONY BRACHO,Highest,2026-11-16,2026-11-20,8,"SCRUM-7, SCRUM-9",https://antonybracho65.atlassian.net/browse/SCRUM-10
+C06,SCRUM-11,C06 · Corregir hallazgos de las sesiones de usabilidad,Por hacer,ANTONY BRACHO,Highest,2026-11-23,2026-11-24,8,SCRUM-10,https://antonybracho65.atlassian.net/browse/SCRUM-11
+C07,SCRUM-12,C07 · Verificar seguridad y regresión del corte técnico,Finalizado,ANTONY BRACHO,High,2026-11-12,2026-11-12,6,SCRUM-8,https://antonybracho65.atlassian.net/browse/SCRUM-12
+C08,SCRUM-13,"C08 · Verificar carga, volumen y restauración",Finalizado,ANTONY BRACHO,High,2026-11-12,2026-11-12,4,SCRUM-12,https://antonybracho65.atlassian.net/browse/SCRUM-13
+C09,SCRUM-14,C09 · Consolidar rúbrica y evidencias finales,En revisión,ANTONY BRACHO,High,2026-11-26,2026-11-26,2,"SCRUM-6, SCRUM-7, SCRUM-8, SCRUM-9, SCRUM-13, SCRUM-16",https://antonybracho65.atlassian.net/browse/SCRUM-14
+C10,SCRUM-15,C10 · Preparar defensa y aceptación de entrega,Por hacer,ANTONY BRACHO,High,2026-11-27,2026-11-27,2,SCRUM-14,https://antonybracho65.atlassian.net/browse/SCRUM-15
+C11,SCRUM-16,C11 · Repetir regresión después de ajustes de usabilidad,Por hacer,ANTONY BRACHO,High,2026-11-25,2026-11-25,3,SCRUM-11,https://antonybracho65.atlassian.net/browse/SCRUM-16

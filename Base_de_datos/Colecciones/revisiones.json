@@ -1,0 +1,1912 @@
+[
+  {
+    "_id": "8d2d491a-90cd-4813-97fe-fe45d5c10e26",
+    "recurso": "profesionales",
+    "registroId": "fernanda",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:17:05.185105Z",
+    "resultado": {
+      "reglasVersion": "2026.10.1",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "pendiente",
+          "detalle": "La entrevista debe realizarla una dueña de Skilly."
+        }
+      ],
+      "etapa": "Completar antecedentes",
+      "estado": "revision",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los requisitos pendientes y volver a revisar.",
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-15T15:17:05.183090Z",
+      "huella": "e6f205264db0dad29e51b53bd08235fe0180408409991a9ebb268adff28aad1f"
+    }
+  },
+  {
+    "_id": "8d671117-4832-42b7-84df-e78de565db6d",
+    "recurso": "servicios",
+    "registroId": "servicio-marketing",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:17:05.187635Z",
+    "resultado": {
+      "reglasVersion": "2026.10.1",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "pendiente",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "pendiente",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "correccion",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los puntos pendientes y volver a enviar.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-15T15:17:05.187025Z",
+      "huella": "e8cf9fa2c9ff422bda5f3967bec5dc343c114d4928f5a31f6869ba58ea7b566d"
+    }
+  },
+  {
+    "_id": "c0acec14-1ff9-413c-8703-81c5c50091e0",
+    "recurso": "profesionales",
+    "registroId": "matias",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:17:05.189810Z",
+    "resultado": {
+      "reglasVersion": "2026.10.1",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "pendiente",
+          "detalle": "La entrevista debe realizarla una dueña de Skilly."
+        }
+      ],
+      "etapa": "Completar antecedentes",
+      "estado": "revision",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los requisitos pendientes y volver a revisar.",
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-15T15:17:05.188701Z",
+      "huella": "e6a36a0b7c548c28e81fe229700841e4a4ebf3adc59fc207229fcf6662460606"
+    }
+  },
+  {
+    "_id": "37f6f731-76ed-4548-a57b-bdab867a4e23",
+    "recurso": "servicios",
+    "registroId": "servicio-ux",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:17:05.191717Z",
+    "resultado": {
+      "reglasVersion": "2026.10.1",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "pendiente",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "pendiente",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "correccion",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los puntos pendientes y volver a enviar.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-15T15:17:05.191170Z",
+      "huella": "774052605df78eabcfb389025d56f9a034439539b64f688f9860b5498268d9b9"
+    }
+  },
+  {
+    "_id": "601b53af-5f37-4cda-a260-ab5428141b0f",
+    "recurso": "profesionales",
+    "registroId": "valentina",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:17:05.193439Z",
+    "resultado": {
+      "reglasVersion": "2026.10.1",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "pendiente",
+          "detalle": "La entrevista debe realizarla una dueña de Skilly."
+        }
+      ],
+      "etapa": "Completar antecedentes",
+      "estado": "revision",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los requisitos pendientes y volver a revisar.",
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-15T15:17:05.192617Z",
+      "huella": "bd0357726e5cd70d399faa20d7e4052787e299c37c0b6d0a2233aecfc2ccb290"
+    }
+  },
+  {
+    "_id": "14f8b49b-812f-4077-915c-d4c4e5e9f143",
+    "recurso": "servicios",
+    "registroId": "servicio-cultura",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:17:05.195065Z",
+    "resultado": {
+      "reglasVersion": "2026.10.1",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "pendiente",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "pendiente",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "correccion",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los puntos pendientes y volver a enviar.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-15T15:17:05.194617Z",
+      "huella": "be2d9d55b7cb053c3b7fd9550dea0095855b42b6475854d5a52f6cdc725c7d00"
+    }
+  },
+  {
+    "_id": "d050d3e6-a2ec-41c2-b5a8-6275ea08a7ee",
+    "recurso": "profesionales",
+    "registroId": "ignacio",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:17:05.196757Z",
+    "resultado": {
+      "reglasVersion": "2026.10.1",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "pendiente",
+          "detalle": "La entrevista debe realizarla una dueña de Skilly."
+        }
+      ],
+      "etapa": "Completar antecedentes",
+      "estado": "revision",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los requisitos pendientes y volver a revisar.",
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-15T15:17:05.195932Z",
+      "huella": "eabc3c33c00bb650d79d710f1b7fe1798e784cd33254af644a88030949fa0f0e"
+    }
+  },
+  {
+    "_id": "6289ca3d-97db-4129-8abc-2163c519d0c8",
+    "recurso": "servicios",
+    "registroId": "servicio-procesos",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:17:05.198161Z",
+    "resultado": {
+      "reglasVersion": "2026.10.1",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "pendiente",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "pendiente",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "correccion",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los puntos pendientes y volver a enviar.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-15T15:17:05.197810Z",
+      "huella": "88b1e43667e23d94384de6bf6539c5ce0af02c550dda07882542b82814ec07f4"
+    }
+  },
+  {
+    "_id": "8c6d0264-b649-48d5-a203-a20a44f236a6",
+    "recurso": "profesionales",
+    "registroId": "fernanda",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:21:02.941842Z",
+    "resultado": {
+      "reglasVersion": "2026.10.2",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "pendiente",
+          "detalle": "El equipo de validación debe realizar la entrevista online."
+        }
+      ],
+      "etapa": "Completar antecedentes",
+      "estado": "revision",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los requisitos pendientes y volver a revisar.",
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-15T15:21:02.938775Z",
+      "huella": "e862879443a85a5128b7da7f2fe8675cafcf3c22ca5363911490e045c1898493"
+    }
+  },
+  {
+    "_id": "0881ae0b-4d84-4659-9a4a-314900e90f87",
+    "recurso": "servicios",
+    "registroId": "servicio-marketing",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:21:02.944798Z",
+    "resultado": {
+      "reglasVersion": "2026.10.2",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "pendiente",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "pendiente",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "correccion",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los puntos pendientes y volver a enviar.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-15T15:21:02.944101Z",
+      "huella": "e5895d4ae040e774a49d6d653294202aedd4bf7b67c32e21479afb9c4305fc6a"
+    }
+  },
+  {
+    "_id": "bbcfb67b-b6f0-4dd5-87e0-c305146b89fd",
+    "recurso": "profesionales",
+    "registroId": "matias",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:21:02.947577Z",
+    "resultado": {
+      "reglasVersion": "2026.10.2",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "pendiente",
+          "detalle": "El equipo de validación debe realizar la entrevista online."
+        }
+      ],
+      "etapa": "Completar antecedentes",
+      "estado": "revision",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los requisitos pendientes y volver a revisar.",
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-15T15:21:02.946180Z",
+      "huella": "7743ae5a5bcb423a52b600bf4df22f2b52ce668f5a6579e5906cc26e9dfd1f4c"
+    }
+  },
+  {
+    "_id": "95a724ea-c4a5-4e68-9160-c6acfbc3d5c9",
+    "recurso": "servicios",
+    "registroId": "servicio-ux",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:21:02.951131Z",
+    "resultado": {
+      "reglasVersion": "2026.10.2",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "pendiente",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "pendiente",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "correccion",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los puntos pendientes y volver a enviar.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-15T15:21:02.949999Z",
+      "huella": "e38271dc484fe67cf7d662ce2c7f3a9f381f187ad5e08fb8fc6520ddc1979893"
+    }
+  },
+  {
+    "_id": "ea842f8d-0bea-46fe-a217-816986959db6",
+    "recurso": "profesionales",
+    "registroId": "valentina",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:21:02.954310Z",
+    "resultado": {
+      "reglasVersion": "2026.10.2",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "pendiente",
+          "detalle": "El equipo de validación debe realizar la entrevista online."
+        }
+      ],
+      "etapa": "Completar antecedentes",
+      "estado": "revision",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los requisitos pendientes y volver a revisar.",
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-15T15:21:02.952918Z",
+      "huella": "a1a8e396d048904cd46e3a79c124d11192766d67326d3eaf8120fcce2daa3a04"
+    }
+  },
+  {
+    "_id": "d622cbf2-120e-4802-a780-f51886d8e4fc",
+    "recurso": "servicios",
+    "registroId": "servicio-cultura",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:21:02.957449Z",
+    "resultado": {
+      "reglasVersion": "2026.10.2",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "pendiente",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "pendiente",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "correccion",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los puntos pendientes y volver a enviar.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-15T15:21:02.956429Z",
+      "huella": "cb9b04fad55a7386a5993f40796c4bee298b9c91c6c9032bcd56698782791058"
+    }
+  },
+  {
+    "_id": "918809de-661d-4947-939f-0d885d7052d4",
+    "recurso": "profesionales",
+    "registroId": "ignacio",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:21:02.960346Z",
+    "resultado": {
+      "reglasVersion": "2026.10.2",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "pendiente",
+          "detalle": "El equipo de validación debe realizar la entrevista online."
+        }
+      ],
+      "etapa": "Completar antecedentes",
+      "estado": "revision",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los requisitos pendientes y volver a revisar.",
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-15T15:21:02.959007Z",
+      "huella": "5c9027d4c06b02d7dca39a1c0584dbff16d69e87be43abead46877f179e98dd7"
+    }
+  },
+  {
+    "_id": "fdaa6ebf-fd27-4f03-bff6-da57d0c3d32f",
+    "recurso": "servicios",
+    "registroId": "servicio-procesos",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:21:02.963222Z",
+    "resultado": {
+      "reglasVersion": "2026.10.2",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "pendiente",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "pendiente",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "correccion",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los puntos pendientes y volver a enviar.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-15T15:21:02.962401Z",
+      "huella": "25a8fac66ae16f6dbc5dc92b13afb3abd126c4cce896c43731a39e83d9ed7298"
+    }
+  },
+  {
+    "_id": "cb3ad752-ce10-4954-9e99-5f0414049b66",
+    "recurso": "profesionales",
+    "registroId": "fernanda",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:24:50.245161Z",
+    "resultado": {
+      "reglasVersion": "2026.10.3",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "aprobado",
+          "detalle": "PDF recibido y comprobado en formato y tamaño. Autenticidad no verificada externamente."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "aprobado",
+          "detalle": "PDF recibido y comprobado en formato y tamaño. Autenticidad no verificada externamente."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "aprobado",
+          "detalle": "Entrevista aprobada por el equipo de validación."
+        }
+      ],
+      "etapa": "Profesional validado",
+      "estado": "validado",
+      "responsable": "Profesional",
+      "siguientePaso": "Publicar servicios para su revisión automática.",
+      "justificacion": "El sistema habilitó el perfil porque cumple todos los requisitos de información y documentación, y tiene registrada una entrevista aprobada por el equipo de validación.",
+      "demostracion": true,
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-15T15:24:50.241719Z",
+      "huella": "1493a8b05019d1926f90773ad6f7135b8f9905ddf076ccac6a89d4bbb9d9a7b5"
+    }
+  },
+  {
+    "_id": "d4660423-29a8-4dc8-bf54-e3a04087df34",
+    "recurso": "servicios",
+    "registroId": "servicio-marketing",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:24:50.247403Z",
+    "resultado": {
+      "reglasVersion": "2026.10.3",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "aprobado",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "pendiente",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "correccion",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los puntos pendientes y volver a enviar.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-15T15:24:50.246984Z",
+      "huella": "f248effe1c472274f6cc9eea44ba3c09474a41fa1f76581f18527e9334b42cee"
+    }
+  },
+  {
+    "_id": "26e3431d-b989-49b9-bbec-7d534c64a539",
+    "recurso": "profesionales",
+    "registroId": "matias",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:24:50.285074Z",
+    "resultado": {
+      "reglasVersion": "2026.10.3",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "aprobado",
+          "detalle": "PDF recibido y comprobado en formato y tamaño. Autenticidad no verificada externamente."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "aprobado",
+          "detalle": "PDF recibido y comprobado en formato y tamaño. Autenticidad no verificada externamente."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "rechazado",
+          "detalle": "Entrevista rechazada: Escenario de demostración: en la entrevista simulada no se sustentan los ejemplos de experiencia y el alcance de los servicios requeridos para este caso. No describe una evaluación real del profesional."
+        }
+      ],
+      "etapa": "Entrevista rechazada",
+      "estado": "rechazado",
+      "responsable": "Profesional",
+      "siguientePaso": "Consultar las observaciones de la entrevista.",
+      "justificacion": "El sistema no habilitó el perfil porque la entrevista fue rechazada por el equipo de validación. Motivo registrado: Escenario de demostración: en la entrevista simulada no se sustentan los ejemplos de experiencia y el alcance de los servicios requeridos para este caso. No describe una evaluación real del profesional.",
+      "demostracion": true,
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-15T15:24:50.284139Z",
+      "huella": "b1d35dbec6322bb33e0a16fb8ef6ec5d653157cfa268135e062c0bad7c05a8b1"
+    }
+  },
+  {
+    "_id": "701feca7-3e06-45df-bb30-8a4d9dff9056",
+    "recurso": "servicios",
+    "registroId": "servicio-ux",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:24:50.286727Z",
+    "resultado": {
+      "reglasVersion": "2026.10.3",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "pendiente",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "pendiente",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "correccion",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los puntos pendientes y volver a enviar.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-15T15:24:50.286268Z",
+      "huella": "0cfcd527aa704167300c0d129d92e33a67f485db4d1eee5948325c8db5437dd1"
+    }
+  },
+  {
+    "_id": "a725061c-3fbb-4d7e-9092-d220c6caf260",
+    "recurso": "profesionales",
+    "registroId": "valentina",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:25:53.704661Z",
+    "resultado": {
+      "reglasVersion": "2026.10.3",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "pendiente",
+          "detalle": "El equipo de validación debe realizar la entrevista online."
+        }
+      ],
+      "etapa": "Completar antecedentes",
+      "estado": "revision",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los requisitos pendientes y volver a revisar.",
+      "justificacion": "El perfil aún no cumple todos los requisitos. Falta completar: Currículum, Respaldo de formación o experiencia, Entrevista online.",
+      "demostracion": false,
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-15T15:25:53.703317Z",
+      "huella": "b8cf5281cc36cc3efce44ac4746abdce552978574e128f8dfa7fc8bbe0806f90"
+    }
+  },
+  {
+    "_id": "d3c96def-5457-4ef9-92e4-5521c0b2d71e",
+    "recurso": "servicios",
+    "registroId": "servicio-cultura",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:25:53.706778Z",
+    "resultado": {
+      "reglasVersion": "2026.10.3",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "pendiente",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "pendiente",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "correccion",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los puntos pendientes y volver a enviar.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-15T15:25:53.706232Z",
+      "huella": "37d4610edac09d752ef6bb7bd01451833d7f1098a9576e7e6794c0cdb2dc6722"
+    }
+  },
+  {
+    "_id": "c699fa94-9ba1-454f-8668-6316112f5ccc",
+    "recurso": "profesionales",
+    "registroId": "ignacio",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:25:53.708596Z",
+    "resultado": {
+      "reglasVersion": "2026.10.3",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "pendiente",
+          "detalle": "El equipo de validación debe realizar la entrevista online."
+        }
+      ],
+      "etapa": "Completar antecedentes",
+      "estado": "revision",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los requisitos pendientes y volver a revisar.",
+      "justificacion": "El perfil aún no cumple todos los requisitos. Falta completar: Currículum, Respaldo de formación o experiencia, Entrevista online.",
+      "demostracion": false,
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-15T15:25:53.707725Z",
+      "huella": "01deefd3d4e240cb0fd790e93813c469167245ff59854bf56f9a2b3698d98232"
+    }
+  },
+  {
+    "_id": "d146451f-4d99-46c2-9132-b89e7cf7ccf1",
+    "recurso": "servicios",
+    "registroId": "servicio-procesos",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T15:25:53.710461Z",
+    "resultado": {
+      "reglasVersion": "2026.10.3",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "pendiente",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "pendiente",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "correccion",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los puntos pendientes y volver a enviar.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-15T15:25:53.709968Z",
+      "huella": "77f33c043373ed69c88cf0f141c9dbd07d18f1d5679b22b38edf4c5b69ec82d5"
+    }
+  },
+  {
+    "_id": "62234f0b-eab2-4b0f-98b9-4d5be16f4f6c",
+    "recurso": "servicios",
+    "registroId": "servicio-marketing",
+    "actor": "Sistema",
+    "fecha": "2026-10-15T16:03:57.142401Z",
+    "resultado": {
+      "reglasVersion": "2026.10.3",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "aprobado",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "aprobado",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "publicado",
+      "responsable": "Profesional",
+      "siguientePaso": "Servicio disponible para solicitudes.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-15T16:03:57.141655Z",
+      "huella": "59b18dac3b0802b07f64a1d0d1c6974ee25a96d085245ea786a95d8549e33795"
+    }
+  },
+  {
+    "_id": "profesionales:fernanda:8afd09e4d79ce7685eccde569ad2a9c845ae31311f0573f151801eb52f2a2d3f",
+    "actor": "Sistema",
+    "fecha": "2026-10-29T14:05:19.161331Z",
+    "recurso": "profesionales",
+    "registroId": "fernanda",
+    "resultado": {
+      "reglasVersion": "2026.10.29",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "aprobado",
+          "detalle": "Estructura PDF y tamaño comprobados. Autenticidad no verificada externamente."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "aprobado",
+          "detalle": "Estructura PDF y tamaño comprobados. Autenticidad no verificada externamente."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "aprobado",
+          "detalle": "Entrevista aprobada por el equipo de validación."
+        }
+      ],
+      "etapa": "Profesional validado",
+      "estado": "validado",
+      "responsable": "Profesional",
+      "siguientePaso": "Publicar servicios para su revisión automática.",
+      "justificacion": "El sistema habilitó el perfil porque cumple todos los requisitos de información y documentación, y tiene registrada una entrevista aprobada por el equipo de validación.",
+      "demostracion": true,
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-29T14:05:19.159626Z",
+      "huella": "8afd09e4d79ce7685eccde569ad2a9c845ae31311f0573f151801eb52f2a2d3f"
+    }
+  },
+  {
+    "_id": "servicios:servicio-marketing:33adc221946e901b6a9fdf642fa34136022650ab8b345b814e0d2eeb546f92b5",
+    "actor": "Sistema",
+    "fecha": "2026-10-29T14:05:19.168761Z",
+    "recurso": "servicios",
+    "registroId": "servicio-marketing",
+    "resultado": {
+      "reglasVersion": "2026.10.29",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "aprobado",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "aprobado",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "publicado",
+      "responsable": "Profesional",
+      "siguientePaso": "Servicio disponible para solicitudes.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-29T14:05:19.168075Z",
+      "huella": "33adc221946e901b6a9fdf642fa34136022650ab8b345b814e0d2eeb546f92b5"
+    }
+  },
+  {
+    "_id": "profesionales:matias:acfe2563d428086ca528918136f1154d9e7c44a7f6da6bc76df79903bb3fc76e",
+    "actor": "Sistema",
+    "fecha": "2026-10-29T14:05:19.172576Z",
+    "recurso": "profesionales",
+    "registroId": "matias",
+    "resultado": {
+      "reglasVersion": "2026.10.29",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "aprobado",
+          "detalle": "Estructura PDF y tamaño comprobados. Autenticidad no verificada externamente."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "aprobado",
+          "detalle": "Estructura PDF y tamaño comprobados. Autenticidad no verificada externamente."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "rechazado",
+          "detalle": "Entrevista rechazada: Escenario de demostración: en la entrevista simulada no se sustentan los ejemplos de experiencia y el alcance de los servicios requeridos para este caso. No describe una evaluación real del profesional."
+        }
+      ],
+      "etapa": "Entrevista rechazada",
+      "estado": "rechazado",
+      "responsable": "Profesional",
+      "siguientePaso": "Consultar las observaciones de la entrevista.",
+      "justificacion": "El sistema no habilitó el perfil porque la entrevista fue rechazada por el equipo de validación. Motivo registrado: Escenario de demostración: en la entrevista simulada no se sustentan los ejemplos de experiencia y el alcance de los servicios requeridos para este caso. No describe una evaluación real del profesional.",
+      "demostracion": true,
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-29T14:05:19.171581Z",
+      "huella": "acfe2563d428086ca528918136f1154d9e7c44a7f6da6bc76df79903bb3fc76e"
+    }
+  },
+  {
+    "_id": "servicios:servicio-ux:535f405353de68ca43c004cf7a697ee81921825d4dde29ed74eb9acac5a0460c",
+    "actor": "Sistema",
+    "fecha": "2026-10-29T14:05:19.174399Z",
+    "recurso": "servicios",
+    "registroId": "servicio-ux",
+    "resultado": {
+      "reglasVersion": "2026.10.29",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "pendiente",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "pendiente",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "correccion",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los puntos pendientes y volver a enviar.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-29T14:05:19.173894Z",
+      "huella": "535f405353de68ca43c004cf7a697ee81921825d4dde29ed74eb9acac5a0460c"
+    }
+  },
+  {
+    "_id": "profesionales:valentina:24572e3f23562ab65bf49511d036bc659148ae0fed8a6829086ab143487c5816",
+    "actor": "Sistema",
+    "fecha": "2026-10-29T14:05:19.176566Z",
+    "recurso": "profesionales",
+    "registroId": "valentina",
+    "resultado": {
+      "reglasVersion": "2026.10.29",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "pendiente",
+          "detalle": "El equipo de validación debe realizar la entrevista online."
+        }
+      ],
+      "etapa": "Completar antecedentes",
+      "estado": "revision",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los requisitos pendientes y volver a revisar.",
+      "justificacion": "El perfil aún no cumple todos los requisitos. Falta completar: Currículum, Respaldo de formación o experiencia, Entrevista online.",
+      "demostracion": false,
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-29T14:05:19.175856Z",
+      "huella": "24572e3f23562ab65bf49511d036bc659148ae0fed8a6829086ab143487c5816"
+    }
+  },
+  {
+    "_id": "servicios:servicio-cultura:f7efbca2aa06589bea9995e6542978e2962b18d51b8bc4bc285493cbe336804a",
+    "actor": "Sistema",
+    "fecha": "2026-10-29T14:05:19.177921Z",
+    "recurso": "servicios",
+    "registroId": "servicio-cultura",
+    "resultado": {
+      "reglasVersion": "2026.10.29",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "pendiente",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "pendiente",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "correccion",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los puntos pendientes y volver a enviar.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-29T14:05:19.177508Z",
+      "huella": "f7efbca2aa06589bea9995e6542978e2962b18d51b8bc4bc285493cbe336804a"
+    }
+  },
+  {
+    "_id": "profesionales:ignacio:4f34bf197b483fd24fd8f3c92400c019b45b2a500be2953dfa74eb3ca23acb1b",
+    "actor": "Sistema",
+    "fecha": "2026-10-29T14:05:19.180646Z",
+    "recurso": "profesionales",
+    "registroId": "ignacio",
+    "resultado": {
+      "reglasVersion": "2026.10.29",
+      "comprobaciones": [
+        {
+          "codigo": "PER-01",
+          "nombre": "Identificación del perfil",
+          "resultado": "aprobado",
+          "detalle": "Nombre de al menos 3 caracteres."
+        },
+        {
+          "codigo": "PER-02",
+          "nombre": "Profesión y ubicación",
+          "resultado": "aprobado",
+          "detalle": "Completar profesión y ubicación."
+        },
+        {
+          "codigo": "PER-03",
+          "nombre": "Presentación profesional",
+          "resultado": "aprobado",
+          "detalle": "Resumen de al menos 40 caracteres."
+        },
+        {
+          "codigo": "PER-04",
+          "nombre": "Habilidades",
+          "resultado": "aprobado",
+          "detalle": "Informar al menos dos habilidades."
+        },
+        {
+          "codigo": "DOC-CV",
+          "nombre": "Currículum",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "DOC-FORMACION",
+          "nombre": "Respaldo de formación o experiencia",
+          "resultado": "pendiente",
+          "detalle": "Subir PDF, máximo 5 MiB. La recepción no acredita autenticidad."
+        },
+        {
+          "codigo": "ENT-01",
+          "nombre": "Entrevista online",
+          "resultado": "pendiente",
+          "detalle": "El equipo de validación debe realizar la entrevista online."
+        }
+      ],
+      "etapa": "Completar antecedentes",
+      "estado": "revision",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los requisitos pendientes y volver a revisar.",
+      "justificacion": "El perfil aún no cumple todos los requisitos. Falta completar: Currículum, Respaldo de formación o experiencia, Entrevista online.",
+      "demostracion": false,
+      "alcance": "Revisión automática de requisitos y formato; no certifica identidad, autenticidad ni competencias.",
+      "fecha": "2026-10-29T14:05:19.179679Z",
+      "huella": "4f34bf197b483fd24fd8f3c92400c019b45b2a500be2953dfa74eb3ca23acb1b"
+    }
+  },
+  {
+    "_id": "servicios:servicio-procesos:dfd098d3fdc7c2b9dee37de68d29a2f0d655de8a4bc6b6a6e1a2af3ed2aad975",
+    "actor": "Sistema",
+    "fecha": "2026-10-29T14:05:19.182354Z",
+    "recurso": "servicios",
+    "registroId": "servicio-procesos",
+    "resultado": {
+      "reglasVersion": "2026.10.29",
+      "comprobaciones": [
+        {
+          "codigo": "SER-01",
+          "nombre": "Profesional validado",
+          "resultado": "pendiente",
+          "detalle": "Requiere requisitos automáticos completos y entrevista aprobada."
+        },
+        {
+          "codigo": "SER-02",
+          "nombre": "Título claro",
+          "resultado": "aprobado",
+          "detalle": "Título de al menos 8 caracteres."
+        },
+        {
+          "codigo": "SER-03",
+          "nombre": "Descripción",
+          "resultado": "aprobado",
+          "detalle": "Descripción de al menos 40 caracteres."
+        },
+        {
+          "codigo": "SER-04",
+          "nombre": "Precio",
+          "resultado": "aprobado",
+          "detalle": "Precio entero mayor que cero en CLP."
+        },
+        {
+          "codigo": "SER-05",
+          "nombre": "Categoría y duración",
+          "resultado": "aprobado",
+          "detalle": "Informar categoría y duración estimada."
+        },
+        {
+          "codigo": "SER-06",
+          "nombre": "Entregables",
+          "resultado": "pendiente",
+          "detalle": "Describir qué recibe la empresa, al menos 15 caracteres."
+        }
+      ],
+      "estado": "correccion",
+      "responsable": "Profesional",
+      "siguientePaso": "Corregir los puntos pendientes y volver a enviar.",
+      "alcance": "Revisión de requisitos de publicación; no garantiza calidad, legalidad ni prestación efectiva.",
+      "fecha": "2026-10-29T14:05:19.181920Z",
+      "huella": "dfd098d3fdc7c2b9dee37de68d29a2f0d655de8a4bc6b6a6e1a2af3ed2aad975"
+    }
+  }
+]

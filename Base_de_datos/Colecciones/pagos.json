@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "09dc2b81-148c-4fa8-93ee-b62e36e47afa",
+    "id": "09dc2b81-148c-4fa8-93ee-b62e36e47afa",
+    "agendaId": "agenda-digital",
+    "solicitudId": "solicitud-digital",
+    "empresaId": "digital-sur",
+    "profesionalId": "matias",
+    "servicioId": "servicio-ux",
+    "monto": 650000,
+    "fecha": {
+      "$date": "2026-09-29T12:00:00Z"
+    },
+    "estado": "pagado",
+    "origenVersion": 3,
+    "simulado": true,
+    "_version": 4
+  }
+]
