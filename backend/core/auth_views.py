@@ -190,7 +190,7 @@ def login(request: HttpRequest) -> JsonResponse:
     """Autentica y crea una sesión sin revelar qué credencial falló.
 
     POST JSON con correo y password. Responde 200 al autenticar, 401 con error genérico o 429
-    por intentos. El hash ficticio mantiene una comprobación de contraseña incluso sin cuenta.
+    por intentos. El hash de referencia mantiene una comprobación de contraseña incluso sin cuenta.
     JSON/correo inválidos producen 400 mediante database_errors.
 
     Args:

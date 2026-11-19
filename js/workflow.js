@@ -13,7 +13,7 @@ function comprobacionesHTML(revision) {
             <div class="review-item-content"><div class="review-item-heading"><h4>${escaparHTML(c.nombre)}</h4><span class="review-pill ${ok ? "approved" : rechazado ? "rejected" : "pending"}">${ok ? "Aprobado" : rechazado ? "Rechazado" : "Pendiente"}</span></div>
             <p>${escaparHTML(c.detalle)}</p><details class="review-rule"><summary>Ver criterio evaluado</summary><p>Referencia ${escaparHTML(c.codigo)} · ${escaparHTML(c.detalle)}</p></details></div></li>`;
     };
-    return `${revision.demostracion ? '<p class="review-demo">Caso de demostración · documentos y entrevista simulados para mostrar el recorrido.</p>' : ''}
+    return `${revision.demostracion ? '<p class="review-demo">Caso de demostración · ejemplo del recorrido de validación.</p>' : ''}
         ${revision.justificacion ? `<section class="review-decision ${revision.estado === "validado" ? "decision-approved" : revision.estado === "rechazado" ? "decision-rejected" : "decision-pending"}"><span class="review-kicker">RESULTADO DEL SISTEMA</span><h3>${revision.estado === "validado" ? "Profesional aprobado" : revision.estado === "rechazado" ? "Profesional rechazado" : "Validación pendiente"}</h3><p>${escaparHTML(revision.justificacion)}</p></section>` : ''}
         <section class="review-overview" aria-label="Avance de la revisión">
         <div class="review-overview-top"><span class="review-kicker">AVANCE DEL PROCESO</span><span class="review-pill ${revision.estado === "rechazado" ? "rejected" : pendientes.length ? "pending" : "approved"}">${revision.estado === "rechazado" ? "No aprobado" : pendientes.length ? "En curso" : "Completado"}</span></div>

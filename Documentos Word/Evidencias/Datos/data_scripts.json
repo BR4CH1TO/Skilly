@@ -1,5 +1,7 @@
 {
-  "versionSQL": "VERSION()\n11.4.13-MariaDB-ubu2404",
+  "fecha": "2026-11-19T14:15:27.717093-03:00",
+  "versionSQL": "VERSION()\n12.3.3-MariaDB",
+  "alcance": "Scripts ejecutados en esquemas temporales, con etiquetas de demostración. SQL sustituye solo el nombre de esquema para aislar el ensayo.",
   "resultados": [
     {
       "motor": "MariaDB",
@@ -34,14 +36,15 @@
       "script": "05_Ejemplos_y_consultas.sql",
       "exitCode": 0,
       "correcto": true,
-      "salida": "contrato\tempresa\tprofesional\tservicio\timporte\nlab-c\tEmpresa ficticia\tProfesional ficticio\tServicio ficticio de laboratorio\t100000\nclaves_foraneas\n9\n"
+      "salida": "contrato\tempresa\tprofesional\tservicio\timporte\nlab-c\tEmpresa de demostración\tProfesional de demostración\tServicio de demostración de laboratorio\t100000\nclaves_foraneas\n9\n"
     },
     {
       "motor": "MariaDB",
       "script": "Prueba negativa de FK",
       "exitCode": 1,
       "correcto": true,
-      "salida": "--------------\nINSERT INTO servicios VALUES ('invalid','no-existe','No debe insertarse',100,TRUE)\n--------------\n\nERROR 1452 (23000) at line 1: Cannot add or update a child row: a foreign key constraint fails (`skilly_rubrica_ref`.`servicios`, CONSTRAINT `fk_servicios_profesional_id` FOREIGN KEY (`profesional_id`) REFERENCES `profesionales` (`id`))\n"
+      "salida": "--------------\nINSERT INTO servicios VALUES ('lab-invalido','profesional-ausente','Servicio de demostración',100000,TRUE)\n--------------\n\nERROR 1452 (23000) at line 1: Cannot add or update a child row: a foreign key constraint fails (`skilly_rubrica_demo_d4d7f6ed77a1`.`servicios`, CONSTRAINT `fk_servicios_profesional_id` FOREIGN KEY (`profesional_id`) REFERENCES `profesionales` (`id`))\n",
+      "esperado": "Rechazo de referencia inexistente (1452)"
     },
     {
       "motor": "MariaDB",
@@ -90,7 +93,7 @@
       "script": "04_Consultas_demostracion.js",
       "exitCode": 0,
       "correcto": true,
-      "salida": "{\n  _id: 'p-lab',\n  nombre: 'Perfil ficticio',\n  profesion: 'Diseño',\n  estado: 'revision'\n}\n[\n  {\n    v: 2,\n    key: {\n      _id: 1\n    },\n    name: '_id_'\n  },\n  {\n    v: 2,\n    key: {\n      solicitudId: 1\n    },\n    name: 'solicitudId_1',\n    unique: true,\n    partialFilterExpression: {\n      estado: {\n        '$in': [\n          'propuesto',\n          'confirmado',\n          'realizado',\n          'finalizado'\n        ]\n      }\n    }\n  },\n  {\n    v: 2,\n    key: {\n      profesionalId: 1,\n      fecha: 1\n    },\n    name: 'profesionalId_1_fecha_1',\n    unique: true,\n    partialFilterExpression: {\n      estado: {\n        '$in': [\n          'propuesto',\n          'confirmado',\n          'realizado',\n          'finalizado'\n        ]\n      }\n    }\n  },\n  {\n    v: 2,\n    key: {\n      claveOperacion: 1\n    },\n    name: 'claveOperacion_1',\n    unique: true,\n    partialFilterExpression: {\n      claveOperacion: {\n        '$type': 'string'\n      }\n    }\n  }\n]\n[\n  {\n    v: 2,\n    key: {\n      _id: 1\n    },\n    name: '_id_'\n  },\n  {\n    v: 2,\n    key: {\n      agendaId: 1\n    },\n    name: 'agendaId_1',\n    unique: true\n  }\n]\n"
+      "salida": "{\n  _id: 'p-lab',\n  nombre: 'Perfil de demostración',\n  profesion: 'Diseño',\n  estado: 'revision'\n}\n[\n  {\n    v: 2,\n    key: {\n      _id: 1\n    },\n    name: '_id_'\n  },\n  {\n    v: 2,\n    key: {\n      solicitudId: 1\n    },\n    name: 'solicitudId_1',\n    unique: true,\n    partialFilterExpression: {\n      estado: {\n        '$in': [\n          'propuesto',\n          'confirmado',\n          'realizado',\n          'finalizado'\n        ]\n      }\n    }\n  },\n  {\n    v: 2,\n    key: {\n      profesionalId: 1,\n      fecha: 1\n    },\n    name: 'profesionalId_1_fecha_1',\n    unique: true,\n    partialFilterExpression: {\n      estado: {\n        '$in': [\n          'propuesto',\n          'confirmado',\n          'realizado',\n          'finalizado'\n        ]\n      }\n    }\n  },\n  {\n    v: 2,\n    key: {\n      claveOperacion: 1\n    },\n    name: 'claveOperacion_1',\n    unique: true,\n    partialFilterExpression: {\n      claveOperacion: {\n        '$type': 'string'\n      }\n    }\n  }\n]\n[\n  {\n    v: 2,\n    key: {\n      _id: 1\n    },\n    name: '_id_'\n  },\n  {\n    v: 2,\n    key: {\n      agendaId: 1\n    },\n    name: 'agendaId_1',\n    unique: true\n  }\n]\n"
     },
     {
       "motor": "MongoDB",

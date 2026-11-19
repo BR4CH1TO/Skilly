@@ -54,7 +54,7 @@ class RealIntegrationTests(TestCase):
         self.db.usuarios.insert_one({'_id':'admin','nombre':'Admin de prueba','correo':'admin@example.com','rol':'admin','activo':True,'passwordHash':make_password(self.password)})
         admin=self.client();self.assertEqual(self.call(admin,'/api/auth/login/',{'correo':'admin@example.com','password':self.password}).status_code,200)
         v=self.db.validaciones.find_one({'_id':pid})
-        r=self.call(admin,f'/api/profesionales/{pid}/entrevista/',{'version':v['_version'],'resultado':'aprobada','responsable':'Equipo de prueba','observaciones':'Entrevista sintética de integración, aprobada.','fecha':(datetime.now(timezone.utc)-timedelta(hours=1)).isoformat(),'enlace':'https://example.com/entrevista'})
+        r=self.call(admin,f'/api/profesionales/{pid}/entrevista/',{'version':v['_version'],'resultado':'aprobada','responsable':'Equipo de prueba','observaciones':'Entrevista de demostración de integración, aprobada.','fecha':(datetime.now(timezone.utc)-timedelta(hours=1)).isoformat(),'enlace':'https://example.com/entrevista'})
         self.assertEqual(r.status_code,200,r.content)
         r=self.call(pro,'/api/cuenta/servicios/',{'record':{'titulo':'Diseño de interfaz profesional','categoria':'Diseño','descripcion':'Diseño y prototipado de una interfaz digital con pruebas de usabilidad.','precio':150000,'duracion':'Dos semanas','entregables':'Prototipo navegable y guía de componentes.'}})
         self.assertEqual(r.status_code,201,r.content);sid=r.json()['record']['id'];self.assertTrue(r.json()['record']['disponible'])

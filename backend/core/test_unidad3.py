@@ -42,8 +42,8 @@ class Unit3IntegrationTests(TestCase):
     def test_operator_details_do_not_enable_real_payments(self):
         case = self.case
         response = case.fixture.call(case.clients['admin'], '/api/contratos/operador/', {
-            'razonSocial': 'Operador ficticio de laboratorio', 'rut': 'No verificado',
-            'domicilio': 'Dirección ficticia del laboratorio', 'correo': 'operador@example.invalid',
+            'razonSocial': 'Operador de demostración de laboratorio', 'rut': 'No verificado',
+            'domicilio': 'Dirección de demostración del laboratorio', 'correo': 'operador@example.invalid',
         })
         self.assertEqual(response.status_code, 200, response.content)
         self.assertFalse(response.json()['pagosRealesHabilitados'])

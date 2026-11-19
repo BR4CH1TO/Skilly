@@ -28,7 +28,7 @@
         ]
       ],
       "tipo": "Extracto del código fuente; no captura de una ejecución.",
-      "sha256_fuente": "ae306625f622c304b7131ab51462797f242e61ac1809d036d953eb77c50031a1"
+      "sha256_fuente": "ac850076586224ba05fffc2710eb6a8db5357099d47caf52ec87a373a6a2c80c"
     },
     {
       "imagen": "03_PDF_seguro.png",
@@ -120,7 +120,7 @@
         "Acceso admin",
         "Acceso empresa",
         "Acceso profesional",
-        "Descarga privada de PDF ficticio"
+        "Descarga privada de PDF de demostración"
       ],
       "limite": "Ejecutado en macOS; no acredita ejecución nativa Windows."
     },

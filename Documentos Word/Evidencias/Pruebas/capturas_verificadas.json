@@ -1,7 +1,7 @@
 {
   "fecha": "2026-11-19",
   "origen": "Navegador Chromium sobre Django y MongoDB temporales; código actual del proyecto.",
-  "datos": "Ficticios, solo para demostración; no opiniones ni entrevistas reales.",
+  "datos": "Datos de demostración; no opiniones ni entrevistas reales.",
   "resultado": "APROBADO",
   "erroresJavaScript": [],
   "capturas": [
@@ -85,7 +85,7 @@
       "opacidad": "1",
       "desbordamientoPagina": false,
       "dialogosAbiertos": 0,
-      "sha256": "11fbffd43ca996346b20bcc6271361d8ac40e1b4fc7e567283fabab01313322e",
+      "sha256": "f0f6570b039db1ebae0f1b3e24528dbfc2d336d1875864eb60dad599b59c534f",
       "dimensionesPNG": [
         2104,
         1708

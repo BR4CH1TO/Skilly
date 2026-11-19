@@ -1,7 +1,7 @@
 {
   "fecha": "2026-11-19",
   "resultado": "APROBADO",
-  "alcance": "Ensayo de integración del recorrido de grabación: dos etapas, correcciones, cambio de fecha, liquidación, incidencia, devolución consentida y evaluación. Datos sintéticos en MongoDB temporal; no es un video ni evaluación humana.",
+  "alcance": "Ensayo de integración del recorrido de grabación: dos etapas, correcciones, cambio de fecha, liquidación, incidencia, devolución consentida y evaluación. Datos de demostración en MongoDB temporal; no es un video ni evaluación humana.",
   "operaciones": [
     {
       "rol": "profesional",

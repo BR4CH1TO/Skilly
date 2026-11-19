@@ -84,7 +84,7 @@ def reviews(request: HttpRequest) -> JsonResponse:
     """Consulta auditoría o reintenta revisiones pendientes.
 
     GET/POST admin; GET exige recurso profesionales/servicios e id, y devuelve hasta 50
-    revisiones. POST recupera pendientes sin registrar una entrevista humana ficticia.
+    revisiones. POST recupera pendientes sin registrar una entrevista no realizada.
 
     Args:
         request: Petición Django; JSON, parámetros o multipart según el contrato descrito. Los

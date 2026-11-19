@@ -44,8 +44,8 @@ def phase(kind,workers,seconds=8,pause=.025):
 client=MongoClient('mongodb://127.0.0.1:27017/',serverSelectionTimeoutMS=3000);db=client[info['database']]
 try:
  phase('base',1);phase('base',5);phase('base',10)
- db.profesionales.insert_many([{'_id':f'vol-p-{i:04d}','id':f'vol-p-{i:04d}','_version':1,'nombre':f'Perfil sintético {i:04d}','profesion':'Diseño','estado':'validado','validacionProceso':'ensayo-volumen','habilidades':['Diseño','Prototipado']} for i in range(1000)])
- db.servicios.insert_many([{'_id':f'vol-s-{i:04d}','id':f'vol-s-{i:04d}','_version':1,'titulo':f'Oferta sintética {i:04d}','profesionalId':f'vol-p-{i//3:04d}','precio':100000,'disponible':True,'categoria':'Diseño','descripcion':'Datos sintéticos para prueba de volumen.'} for i in range(3000)])
+ db.profesionales.insert_many([{'_id':f'vol-p-{i:04d}','id':f'vol-p-{i:04d}','_version':1,'nombre':f'Perfil de demostración {i:04d}','profesion':'Diseño','estado':'validado','validacionProceso':'ensayo-volumen','habilidades':['Diseño','Prototipado']} for i in range(1000)])
+ db.servicios.insert_many([{'_id':f'vol-s-{i:04d}','id':f'vol-s-{i:04d}','_version':1,'titulo':f'Oferta de demostración {i:04d}','profesionalId':f'vol-p-{i//3:04d}','precio':100000,'disponible':True,'categoria':'Diseño','descripcion':'Datos de demostración para prueba de volumen.'} for i in range(3000)])
  phase('volumen',1);phase('volumen',5);phase('volumen',10)
  r=s.get(base+'/api/catalogo/?limit=24&offset=2976',timeout=8);volume={'profesionalesInsertados':1000,'serviciosInsertados':3000,'HTTP':r.status_code,'totalServicios':r.json().get('pagination',{}).get('totalServicios'),'registrosUltimaPagina':len(r.json().get('servicios',[]))}
  reason='Límite preventivo de 40 trabajadores alcanzado; no se determina capacidad máxima.'

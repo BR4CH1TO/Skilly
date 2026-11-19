@@ -2,7 +2,7 @@
   "formato": 1,
   "base_destino": "skilly_evaluacion",
   "fecha_UTC": "2026-11-12T15:23:26.845877+00:00",
-  "descripcion": "Copia de demostración: sin usuarios, sesiones ni intentos originales; contactos anonimizados y PDF sustituidos por documentos ficticios.",
+  "descripcion": "Copia de demostración: sin usuarios, sesiones ni intentos originales; contactos anonimizados y PDF sustituidos por documentos de demostración.",
   "colecciones": {
     "agendas": {
       "archivo": "Colecciones/agendas.json",
@@ -542,7 +542,7 @@
     "profesionales": {
       "archivo": "Colecciones/profesionales.json",
       "documentos": 4,
-      "sha256": "d9cb5aab137cc6766db250d09914f4ed7ca29c2a49575bb88484cb721289109d",
+      "sha256": "c61d3e79b2e273d2870c0934b6d054d54cc7966d4675d0a41fa3351005f83ffd",
       "options": {
         "validator": {
           "$jsonSchema": {
@@ -982,9 +982,9 @@
     }
   },
   "archivos_pdf": {
-    "b039e7ab-beff-4df7-bb5d-3d41b3c435f4.pdf": "7c2d46905345bc36756ebffb37ecdc8d405d9ab57a9dbc2ea6b864d086a9afd1",
-    "7d133c83-4a1b-4ad5-873d-14010156e5fd.pdf": "468a737cc44c0026be547a30880ea0fbfb096aaf4cea416794c391bdeb38cd57",
-    "7efdc2e2-5363-472e-be86-4017ef2a4507.pdf": "bb9f4cb0223677857f0a743541a60daa350888bcfec7eb92551b201593e2a467",
-    "d24de79a-f043-492c-90bf-e79a468b7685.pdf": "9e98fc81f980fc7dddddab513c5b58a2fef92bae38644228348f0bb5605c3a24"
+    "b039e7ab-beff-4df7-bb5d-3d41b3c435f4.pdf": "0e08f55e1c2ed7ee783f577bc99cc06226bae584c87a48d5bb7302b075be25ff",
+    "7d133c83-4a1b-4ad5-873d-14010156e5fd.pdf": "0e08f55e1c2ed7ee783f577bc99cc06226bae584c87a48d5bb7302b075be25ff",
+    "7efdc2e2-5363-472e-be86-4017ef2a4507.pdf": "0e08f55e1c2ed7ee783f577bc99cc06226bae584c87a48d5bb7302b075be25ff",
+    "d24de79a-f043-492c-90bf-e79a468b7685.pdf": "0e08f55e1c2ed7ee783f577bc99cc06226bae584c87a48d5bb7302b075be25ff"
   }
 }

@@ -1,7 +1,7 @@
 {
   "fecha": "2026-11-19",
   "consulta": "Perfiles validados ordenados por nombre e id, límite 24",
-  "dataset": "1001 perfiles sintéticos; nombres duplicados para validar desempate",
+  "dataset": "1001 perfiles de demostración; nombres duplicados para validar desempate",
   "indice": "catalogo_profesionales",
   "claves": [
     {
