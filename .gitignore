@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.DS_Store
+backend/private_documents/
+backend/staticfiles/
+backend/private_backups/
+.env.*
+!.env.example
+*.log
+.coverage*
+/coverage.xml
+.pytest_cache/
+.mypy_cache/
+*.mov
+*.mp4
